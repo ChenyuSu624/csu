@@ -1,0 +1,84 @@
+body{
+    background-color:black;
+    color:gray;
+}
+
+h1{
+    font-family: 'Pacifico', cursive;
+    font-size:3em;
+    margin-bottom: 0px;
+}
+
+hr{
+    width: "50%";
+}
+
+header, main, nav, footer{
+    text-align: center;
+}
+
+main div{
+    font-size: 2em;
+}
+
+nav a{
+    padding:15px;
+    padding-bottom: 4px;
+    font-size:1.8em;
+    text-decoration: none;
+    color:white;
+    width:50%;
+}
+
+nav a:hover{
+    border-bottom:2px orange solid;
+    font-size:2em;
+    transition: .9s;
+}
+
+.active {
+    border-bottom:2px blue solid;
+    font-size:2em;
+    color: #94c8c6;
+}
+
+#myPicture{
+    float:left;
+    border-radius:40px;
+}
+
+footer{
+    clear:left;
+    font-size:0.8em;
+    color:red;
+}
+
+table{
+    margin:0px auto;
+}
+
+td{
+    padding-right:10px;
+    font-size:1.3em;
+}
+
+td strong{
+    color:blue;
+}
+    
+#table-header{
+    background-color:#351a00;
+}
+
+.table-row{
+    background-color:#753900;
+}
+
+ul{
+    text-align: left;
+    padding-left:200px;
+}
+
+.hobby{
+    color:yellow;
+}

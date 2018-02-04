@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>
+            Layout Practice
+        </title>
+        
+        <style>
+        
+        /*way1
+            div{
+                float:left;
+                width:300px;
+                text-align:center;
+            }
+            
+            footer{
+                clear:left;
+            }
+            
+            
+        */
+        
+        
+        /*way2
+        div{
+            display: inline-block;
+            width:300px;
+        }
+        
+        body{
+            text-align:center;
+        }
+        */
+        main{
+            display:grid;
+            grid-template-columns:250px 250px 250px;
+            border:1px solid red;
+            width: 800px;
+            margin: 0 auto;/*center containers*/
+            text-align:center;
+        }
+        
+        </style>
+    </head>
+    
+    <body>
+        <main>
+        <div>
+            Box1
+            <br />
+            here is more content
+            <br/>
+            Even more!
+        </div>
+        <div>
+            Box2
+        </div>
+        <div>
+            Box3
+        </div>
+        </main>
+        <!--
+        <br />
+        make footer stays at low  left corner
+        -->
+        
+        <footer>
+            CST336 Internet Programming @copy; 2018;
+        </footer>
+    </body>
+</html>
