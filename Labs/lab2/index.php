@@ -114,8 +114,14 @@
                                     $totalPoints = 250;
                                     break;
                             }
+                            
+                            echo "<h2>You won $totalPoints points!!!</h2>";
+                            
                         }
-                        
+                        else {
+                            echo "<h3> Try Again...</h3>";
+                        }
+                        echo"</div>";
                     }
                 ?>
 <!--
