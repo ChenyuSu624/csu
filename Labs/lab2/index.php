@@ -46,7 +46,7 @@
           ../../   ---as many folders above
           width only changes the display size
           --->
-                <h1> CST336 Slot Machine!!!</h1>
+                <h1> Chenyu's Slot Machine!!!</h1>
                 <?php
                     /*
                     //ways to show images
