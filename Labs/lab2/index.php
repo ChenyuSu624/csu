@@ -1,16 +1,52 @@
+<?php
+
+        function getRamdonColor(){
+            echo"background-color: rgba($red,$green,$blue,$alpha);";
+        }
+?>
+
 <!DOCTYPE html>
 <html>
     <head>
         <title> Lab2 : 777 Slot Machine </title>
         <meta charset = "utf-8"/>
+        
+        <style>
+            body{
+                
+                <?php
+                    $red = rand(0,255);
+                    $green = rand(0,255);
+                    $blue = rand(0,255);
+                    $alpha = rand(0,10)/10;
+                    echo"background-color: rgba($red,$green,$blue,$alpha);";
+                    echo"background-color: rgba(".rand(0,255).",".rand(0,255).",".rand(0,255).",".(rand(0,10)/10).");";
+                    
+                ?>
+                
+            }
+            
+            h1{
+                
+                <?php
+                    $red = rand(0,255);
+                    $green = rand(0,255);
+                    $blue = rand(0,255);
+                    $alpha = rand(0,10)/10;
+                    echo"background-color: rgba($red,$green,$blue,$alpha);";
+                    //echo"color: rgba($red,$green,$blue,$alpha);";
+                ?>
+            }
+        </style>
     </head>
+    
     <body>
           <!---
           ../   ---one folder above
           ../../   ---as many folders above
           width only changes the display size
           --->
-                
+                <h1> CST336 Slot Machine!!!</h1>
                 <?php
                     /*
                     //ways to show images
