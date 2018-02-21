@@ -7,3 +7,5 @@
 [07-Feb-2018 23:08:08 UTC] PHP Parse error:  syntax error, unexpected '");"' (T_CONSTANT_ENCAPSED_STRING), expecting ',' or ';' in /home/ubuntu/workspace/csu/practice/RamdonRolor.php on line 26
 [12-Feb-2018 22:37:02 UTC] PHP Parse error:  syntax error, unexpected '>' in /home/ubuntu/workspace/csu/practice/php_arrays.php on line 20
 [12-Feb-2018 22:38:40 UTC] PHP Parse error:  syntax error, unexpected '>' in /home/ubuntu/workspace/csu/practice/php_arrays.php on line 20
+[19-Feb-2018 22:35:26 UTC] PHP Parse error:  syntax error, unexpected '_start' (T_STRING) in /home/ubuntu/workspace/csu/practice/set_session.php on line 2
+[19-Feb-2018 22:36:26 UTC] PHP Parse error:  syntax error, unexpected '_start' (T_STRING) in /home/ubuntu/workspace/csu/practice/set_session.php on line 2
