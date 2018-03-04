@@ -4,11 +4,44 @@
         text-align:center;
         color:yellow;
     }
-    
-    input {
-        font-size: 3em;
-        color: black;
-    }
+            input {
+        font-size: 2em;
+        text-align: center;
+        width:auto;
+        height:auto;
+        border-radius: 20px;
+        margin: auto;
+        }
+        form
+        {
+            margin-top:30px;
+        }
+        #layoutDiv{
+          font-weight:bold;
+            border-radius: 6px;
+            font-size:1em;
+            color: black;
+            background-color: #f7f7f7;
+            width:150px;
+            height:auto;
+            margin:auto; 
+            display:inline-block;
+        }
+
+        #textBox{
+        display:inline-block;
+        }
+      
+        select{
+          text-align: center;
+           width: 140px;
+        }
+        #carouselExampleIndicators
+        {
+            width:500px;
+            margin: 0 auto; /* center a div container*/
+            
+        }
     
     #carousel-example-generic {
          margin: 0 auto;   

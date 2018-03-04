@@ -7,6 +7,7 @@ include "inc/functions.php";
         <meta charset="utf-8" />
         <title>Lab 3: SilverJack</title>
         <link href="https://fonts.googleapis.com/css?family=Coiny" rel="stylesheet">
+        
     </head>
     <style>
         @import url(css/styles.css);

@@ -1,5 +1,5 @@
 <?php
-print_r($_GET); //displaying all content submitted in the form using the GET method
+//print_r($_GET); //displaying all content submitted in the form using the GET method
 // GET, POST method are in two different arrays
 // POST could not see the parameter you passing
 
@@ -47,13 +47,49 @@ function checkCategory($category)
 <html>
     <head>
         <title> Lab 4: Pixabay Carousel </title>
-    </head>
-    <style>
+        
+        <style>
         @import url("https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css");
         @import url("css/styles.css");
         body {
             background-image: url("<?=$backgroundImage?>");
+            background-size: 100% 100%;
+            background-attachment: fixed;
             
+        }
+        
+        input {
+        font-size: 2em;
+        text-align: center;
+        width:auto;
+        height:auto;
+        border-radius: 20px;
+        margin: auto;
+    }
+        form
+        {
+            margin-top:30px;
+        }
+        #layoutDiv{
+          font-weight:bold;
+            border-radius: 6px;
+            font-size:1em;
+            color: black;
+            background-color: #f7f7f7;
+            opacity: 0.9;
+            width:150px;
+            height:auto;
+            margin:auto; 
+            display:inline-block;
+        }
+
+        #textBox{
+        display:inline-block;
+        }
+      
+        select{
+          text-align: center;
+           width: 140px;
         }
         #carouselExampleIndicators
         {
@@ -62,46 +98,49 @@ function checkCategory($category)
             
         }
     </style>
+    </head>
+
     <body>
-        <?php
-        
+
+        <form method = "GET">
+          <div id = "textBox">
+            <input type="text" size="25" name="keyword" placeholder="Keyword to search for" value = "<?=$_GET['keyword']?>"/>
+            </div>
+            <div id="layoutDiv" >
+                <input type="radio" name="layout" value="horizontal" id="hlayout"
+                  <?php
+                    if($_GET['layout'] =="horizontal")
+                    {
+                      echo "checked";
+                    }
+                  ?>
+                >
+            
+                <label for="hlayout"> Horizontal </label><br />
+                <input type="radio" name="layout" value="vertical" id="vlayout"<?=($_GET['layout'] == "vertical")?"checked": ""?>>
+                <label for="vlayout"> Vertical </label><br />
+            </div>
+            <br/>
+            <br/>
+            
+            <select name="category" style="color:black;font-size:1.2em">
+              <option value="" > - Select One - </option> 
+              <option value="Ocean" <?=checkCategory('Sea')?>>  Ocean </option>
+              <option <?=checkCategory('Forest')?>>  Forest </option>
+              <option <?=checkCategory('Sky')?>>  Sky </option>
+              <option <?=checkCategory('Cars')?>>  Car </option>
+
+            </select><br /><br />
+            <input type="submit" value="Submit" />
+        </form>
+     <?php
             if (!isset($_GET['keyword'])) {
         
               echo "<h2> You must type a keyword or select a category </h2>";
             
             }  
-        ?>
-        <form method = "GET">
-             
-            <input type="text" size="20" name="keyword" placeholder="Keyword to search for" value = "<?=$_GET['keyword']?>"/>
-            
-            
-            <input type="radio" name="layout" value="horizontal" id="hlayout"
-            
-            <?php
-            if($_GET['layout'] =="horizontal")
-            {
-              echo "checked";
-            }
-            ?>*/
-            >
-            <label for="hlayout"> Horizontal </label>
-            <input type="radio" name="layout" value="vertical" id="vlayout"<?=($_GET['layout'] == "vertical")?"checked": ""?>>
-            <label for="vlayout"> Vertical </label>
-            
-                <select name="category">
-              <option value="" >  Select One </option> 
-              <option value="Ocean" <?=checkCategory('Sea')?>>  Ocean </option>
-              <option <?=checkCategory('Forest')?>>  Forest </option>
-              <option <?=checkCategory('Sky')?>>  Sky </option>
-            </select>
-            
-            <input type="submit" value="submit"/>
-                
-        </form>
-     <?php
         
-            if (isset($_GET['keyword'])) {
+            else if (isset($_GET['keyword'])) {
     ?>
     <div id="carouselExampleIndicators" class="carousel slide" data-ride="carousel">
       <ol class="carousel-indicators">
@@ -153,7 +192,6 @@ function checkCategory($category)
         <?php
             }//endIf
         ?>
-        
         
         <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
         <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" /></script>
