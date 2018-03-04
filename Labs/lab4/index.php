@@ -65,7 +65,7 @@ function checkCategory($category)
         height:auto;
         border-radius: 20px;
         margin: auto;
-    }
+        }
         form
         {
             margin-top:30px;
@@ -76,7 +76,6 @@ function checkCategory($category)
             font-size:1em;
             color: black;
             background-color: #f7f7f7;
-            opacity: 0.9;
             width:150px;
             height:auto;
             margin:auto; 

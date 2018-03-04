@@ -2,14 +2,11 @@
 class Card {
 	public static $usedCards = null;
 	public static $suits = array("clubs", "diamonds", "hearts", "spades");
-
 	public $suit = 0;
 	public $val = 0;
-
 	public function getPath() {
 		return "cards/" . Card::$suits[$this->suit] . "/" . ($this->val + 1) . ".png";
 	}
-
 	public static function initUsedCards() {
 		for ($i = 0; $i < 4; $i++) {
 			Card::$usedCards[] = array();
@@ -17,7 +14,6 @@ class Card {
 				Card::$usedCards[$i][] = false;
 		}
 	}
-
 	function __construct() {
 		if (Card::$usedCards == null) Card::initUsedCards();
 		do {
@@ -26,7 +22,6 @@ class Card {
 		} while (Card::$usedCards[$this->suit][$this->val]);
 		Card::$usedCards[$this->suit][$this->val] = true;
 	}
-
 	static function draw($n=1) {
 		$cards = array();
 		for (; $n > 0; $n--)
@@ -34,11 +29,9 @@ class Card {
 		return $cards;
 	}
 }
-
 class Player {
 	public static $nPlayers = 4;
 	public static $players = array();
-
 	public $hand = array(); //Cody - Changed to static to allow access when printing player hands
 	
 	public $sum = 0;
@@ -47,17 +40,14 @@ class Player {
 	function __construct($name = "") {
 		$this->name = $name;
 	}
-
 	function __toString() {
 		return $this->name . ": " . $this->sum . "pts";
 	}
-
 	function draw() {
 		$c = new Card();
-		$this->sum += $c->val;
+		$this->sum += $c->val+1; // Devin - Fixed correct card sums
 		$this->hand[] = $c;
 	}
-
 	function extraDraw() {
 		//returns true if done drawing
 		if ($this->sum < 30 || $this->sum < 42 && rand(-4, 10) < (42 - $this->sum)) {
@@ -66,7 +56,6 @@ class Player {
 		}
 		return true;
 	}
-
 	static function initDraw() {
 		for ($i = count(Player::$players); $i < Player::$nPlayers; $i++)
 			Player::$players[] = new Player("Player " . ($i + 1));
@@ -75,7 +64,6 @@ class Player {
 				$p->draw();
 		}
 	}
-
 	static function doExtraDraws() {
 		$stillDrawing = Player::$nPlayers;
 		while ($stillDrawing > 0) {
@@ -88,7 +76,6 @@ class Player {
 			}
 		}
 	}
-
 	static function getWinner() {
 		$w = array();
 		$m = -1;
@@ -103,18 +90,13 @@ class Player {
 		return $w;
 	}
 }
-
-
-function demo() {
-	/*
-	 * Simple demo of the game loop
-	 * TODO: delete before submitting
-	 */
+function play() {
 	$start = microtime();
 	Player::$players[] = new Player("Aymeric");
 	Player::$players[] = new Player("Chenyu");
 	Player::$players[] = new Player("Cody");
 	Player::$players[] = new Player("Devin");
+	shuffle(Player::$players);
 	Player::initDraw();
 	Player::doExtraDraws();
 	
@@ -128,7 +110,7 @@ function demo() {
 		echo "<div id='player'>";
 		echo '<div style="Color:'.$Color.'">'. $p.'</div>';   //chenyu - change the color of names;
 		
-		$total += $p->sum;  // chenyu -  get the total points of four players.
+		$total += $p->sum;  // chenyu -  get the sum points of four players.
 		
 		if($i >4){
 			$i = $i-4;		// chenyu - make sure every player has an image	
@@ -150,12 +132,13 @@ function demo() {
 	echo "<div id='winner'>";
 	echo "\n\nWinner(s):\n <br/>";
 	
-	foreach (Player::getWinner() as $p) $winPoint += $p->sum;	//chenyu - get the total points from winner(s) function
+	foreach (Player::getWinner() as $p) {
+	$winPoint += $p->sum;	//chenyu - get the total points from winner(s) function
 	echo "$p\n<br/>";
+	} // Devin - Fixed multiple winners displaying
 	$winPoint = $total-$winPoint;								// chenyu - use total points - winner points
-	echo "Total win(s) $winPoint Points ! \n<br/>";				 //chenyu - get the points that winner wins.
+	echo "Total Points: $winPoint \n<br/>";				 //chenyu - get the points that winner wins.
 	echo "</div><br>";
-	
 	
 	$time = microtime() - $start;
 	session_start();
@@ -167,6 +150,4 @@ function demo() {
 	echo "Average time: ${avg}ms.\n</div>";//Cody - end of results
 	echo "<br>";
 }
-
-//demo();
 ?>
