@@ -1,0 +1,75 @@
+body {
+    background-image: url(../img/shi.png);
+    background-position: center center;
+    text-align: center;
+    color: red;
+    background-size: 100% 100%;
+    background-attachment: fixed;
+    font-family: 'Coiny', cursive;
+}
+h1 {
+    height: 75px;
+    color: red;
+    text-decoration: underline;
+    font-size: 4em;
+}
+h1:hover {
+    color: gold;
+    transition: .3s;
+    font-size: 4.3em;
+    text-decoration: underline;
+
+}
+hr {
+    width: 100%;
+    border-color: gray;
+    background-color: white;
+    height: 3px;
+}
+form{
+  margin: auto;
+  width: 1000px;
+  background-color: white;
+  opacity: 0.9;
+  font-size: 2em;
+  border-radius: 10px;
+  height:auto;
+}
+
+input{
+    font-size: 1em;
+    text-align: center;
+    width:auto;
+    height:auto;
+    margin: auto;
+}
+select{
+    font-size: 0.8em;
+    text-align: center;
+    width:auto;
+    height:auto;
+    margin: auto;
+}
+
+.form-group
+{
+    color:red;
+    margin: auto;
+}
+
+.form-check
+{
+    color:red;
+    margin: auto;
+}
+input[type=submit] {
+
+    background-color: #808080;
+    border: none;
+    color: white;
+    padding: 16px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+}

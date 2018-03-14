@@ -102,6 +102,7 @@ function checkCategory($category)
     <body>
 
         <form method = "GET">
+          
           <div id = "textBox">
             <input type="text" size="25" name="keyword" placeholder="Keyword to search for" value = "<?=$_GET['keyword']?>"/>
             </div>
@@ -128,8 +129,8 @@ function checkCategory($category)
               <option <?=checkCategory('Forest')?>>  Forest </option>
               <option <?=checkCategory('Sky')?>>  Sky </option>
               <option <?=checkCategory('Cars')?>>  Car </option>
-
             </select><br /><br />
+            
             <input type="submit" value="Submit" />
         </form>
      <?php
