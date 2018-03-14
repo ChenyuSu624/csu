@@ -1,8 +1,22 @@
 <?php
+    $score = 0;
+    $answers = array("The People's Republic of China",'Beijing','1.3 billion','Panda','dog');
     if (isset($_GET['firstName']) && isset($_GET['lastName'])) {
-        
+        global $score;
         $firstName = $_GET['firstName'];
         $lastName = $_GET['lastName'];
+        // if(isset($_GET['ans1']))
+        // {
+           
+        // }
+        // if(isset($_GET['ans2']))
+        // {
+           
+        // }        
+        // if(isset($_GET['ans3']))
+        // {
+           
+        // }
     
     }
     else {
@@ -16,6 +30,7 @@
         echo "selected";
       }
     }
+    
 ?>
 
 
@@ -87,8 +102,8 @@
               
         </div>
         <div class="form-group">
-            What's the full name of China<br/>
-                <input type="text" name="textans1" placeholder="Enter your answer" value = "<?=$_GET['ans1']?>"/>
+            What is the year 2018 in the zodiac animal cycle?<br/>
+                <input type="text" name="textans1" placeholder="Enter your answer" value = "<?=$_GET['ans3']?>"/>
         </div>
         <hr>
         <input type="submit" value="Submit">
