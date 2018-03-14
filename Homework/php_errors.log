@@ -14,3 +14,7 @@
 [14-Mar-2018 17:43:32 UTC] PHP Fatal error:  Call to undefined function checkAns() in /home/ubuntu/workspace/csu/Homework/hw3/index.php on line 53
 [14-Mar-2018 17:43:32 UTC] PHP Stack trace:
 [14-Mar-2018 17:43:32 UTC] PHP   1. {main}() /home/ubuntu/workspace/csu/Homework/hw3/index.php:0
+[14-Mar-2018 19:39:40 UTC] PHP Fatal error:  Cannot break/continue 1 level in /home/ubuntu/workspace/csu/Homework/hw3/index.php on line 61
+[14-Mar-2018 19:39:40 UTC] PHP Stack trace:
+[14-Mar-2018 19:39:40 UTC] PHP   1. {main}() /home/ubuntu/workspace/csu/Homework/hw3/index.php:0
+[14-Mar-2018 19:39:40 UTC] PHP   2. checkedAns() /home/ubuntu/workspace/csu/Homework/hw3/index.php:107
