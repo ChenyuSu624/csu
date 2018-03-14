@@ -5,40 +5,40 @@
         global $score,$answers;
         $firstName = $_GET['firstName'];
         $lastName = $_GET['lastName'];
-        // if(isset($_GET['ans1']))
-        // {
-        //     $ans1 = $_GET['ans1'];
-        //   if($ans1 == $answers[0])
-        //   {
-        //       $score += 1;
-        //   }
-        //   else{
-        //       break;
-        //   }
-        // }
-        // if(isset($_GET['ans2']))
-        // {
-        //     $ans2 = $_GET['ans2'];
-        //     if($ans2 == $answers[3])
-        //       {
-        //           $score += 1;
-        //       }
-        //       else{
-        //           break;
-        //       }
-        // }        
-        // if(isset($_GET['ans3']))
-        // {
-        //     $ans3 = $_GET['ans3'];
-        //     if($ans3 == $answers[4])
-        //       {
-        //           $score += 1;
-        //       }
-        //       else{
-        //           break;
-        //       }
-        // }
-        // echo "You have earned ".$score." out of 5 points.";
+        if(empty($_GET['ans1']))
+        {
+            $ans1 = $_GET['ans1'];
+          if($ans1 == $answers[0])
+          {
+              $score += 1;
+          }
+          else{
+              break;
+          }
+        }
+        if(empty($_GET['ans2']))
+        {
+            $ans2 = $_GET['ans2'];
+            if($ans2 == $answers[3])
+              {
+                  $score += 1;
+              }
+              else{
+                  break;
+              }
+        }        
+        if(empty($_GET['ans3']))
+        {
+            $ans3 = $_GET['ans3'];
+            if($ans3 == $answers[4])
+              {
+                  $score += 1;
+              }
+              else{
+                  break;
+              }
+        }
+        echo "You have earned ".$score." out of 5 points.";
         
     }
     else {
