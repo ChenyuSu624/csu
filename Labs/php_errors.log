@@ -80,3 +80,12 @@ Stack trace:
 #1 /home/ubuntu/workspace/csu/Labs/lab6/index.php(111): displaySearchResults()
 #2 {main}
   thrown in /home/ubuntu/workspace/csu/Labs/lab6/index.php on line 58
+[25-Mar-2018 05:40:29 UTC] PHP Fatal error:  Call to undefined function getProuducts() in /home/ubuntu/workspace/csu/Labs/lab5/index.php on line 14
+[25-Mar-2018 05:40:29 UTC] PHP Stack trace:
+[25-Mar-2018 05:40:29 UTC] PHP   1. {main}() /home/ubuntu/workspace/csu/Labs/lab5/index.php:0
+[25-Mar-2018 05:40:40 UTC] PHP Fatal error:  Call to undefined function getProuducts() in /home/ubuntu/workspace/csu/Labs/lab5/index.php on line 14
+[25-Mar-2018 05:40:40 UTC] PHP Stack trace:
+[25-Mar-2018 05:40:40 UTC] PHP   1. {main}() /home/ubuntu/workspace/csu/Labs/lab5/index.php:0
+[25-Mar-2018 05:43:48 UTC] PHP Fatal error:  Call to undefined function getProuducts() in /home/ubuntu/workspace/csu/Labs/lab5/index.php on line 14
+[25-Mar-2018 05:43:48 UTC] PHP Stack trace:
+[25-Mar-2018 05:43:48 UTC] PHP   1. {main}() /home/ubuntu/workspace/csu/Labs/lab5/index.php:0
