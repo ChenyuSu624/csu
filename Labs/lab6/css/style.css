@@ -1,0 +1,47 @@
+h1{
+    margin: auto;
+    text-align: center;
+    
+}
+form{
+    width:260px;
+    margin: auto;
+    text-align: center; 
+    text-align-last: left;
+    padding-top: 20px;
+    
+}
+input{
+    border-style: groove;
+}
+
+body{
+    text-align: center;
+    font-family: "Arial Black", Gadget, sans-serif;
+    margin:auto;
+    width:auto;
+    height:auto;
+}
+
+
+.resizedTextbox1{
+    width: 160px;
+    border-style: groove;
+    height: auto;
+}
+.resizedTextbox2{
+    width: 53px;
+    border-style: groove;
+}
+
+.radiobox{
+    float:right;
+    display:inline-block;
+    font-size: 0.7em;
+    vertical-align: middle;
+}
+.submit{
+    padding-top: 20px;
+    margin: auto;
+    text-align-last: center;
+}

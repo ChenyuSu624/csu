@@ -54,3 +54,59 @@ Stack trace:
 #0 /home/ubuntu/workspace/csu/chanllanges/reports.php(88): PDOStatement->execute()
 #1 {main}
   thrown in /home/ubuntu/workspace/csu/chanllanges/reports.php on line 88
+[28-Mar-2018 16:45:47 UTC] PHP Fatal error:  Call to undefined function lettersDropdown() in /home/ubuntu/workspace/csu/MidtermPractice/text.php on line 20
+[28-Mar-2018 16:45:47 UTC] PHP Stack trace:
+[28-Mar-2018 16:45:47 UTC] PHP   1. {main}() /home/ubuntu/workspace/csu/MidtermPractice/text.php:0
+[28-Mar-2018 16:46:03 UTC] PHP Fatal error:  Call to undefined function lettersDropdown() in /home/ubuntu/workspace/csu/MidtermPractice/text.php on line 20
+[28-Mar-2018 16:46:03 UTC] PHP Stack trace:
+[28-Mar-2018 16:46:03 UTC] PHP   1. {main}() /home/ubuntu/workspace/csu/MidtermPractice/text.php:0
+[28-Mar-2018 16:46:12 UTC] PHP Fatal error:  Call to undefined function lettersDropdown() in /home/ubuntu/workspace/csu/MidtermPractice/text.php on line 20
+[28-Mar-2018 16:46:12 UTC] PHP Stack trace:
+[28-Mar-2018 16:46:12 UTC] PHP   1. {main}() /home/ubuntu/workspace/csu/MidtermPractice/text.php:0
+[28-Mar-2018 16:46:49 UTC] PHP Fatal error:  Call to undefined function lettersDropdown() in /home/ubuntu/workspace/csu/MidtermPractice/text.php on line 20
+[28-Mar-2018 16:46:49 UTC] PHP Stack trace:
+[28-Mar-2018 16:46:49 UTC] PHP   1. {main}() /home/ubuntu/workspace/csu/MidtermPractice/text.php:0
+[28-Mar-2018 16:54:54 UTC] PHP Warning:  include(../../dbConnection.php): failed to open stream: No such file or directory in /home/ubuntu/workspace/csu/MidtermPractice/program2.php on line 3
+[28-Mar-2018 16:54:54 UTC] PHP Stack trace:
+[28-Mar-2018 16:54:54 UTC] PHP   1. {main}() /home/ubuntu/workspace/csu/MidtermPractice/program2.php:0
+[28-Mar-2018 16:54:54 UTC] PHP Warning:  include(): Failed opening '../../dbConnection.php' for inclusion (include_path='.:/usr/share/php:/usr/share/pear') in /home/ubuntu/workspace/csu/MidtermPractice/program2.php on line 3
+[28-Mar-2018 16:54:54 UTC] PHP Stack trace:
+[28-Mar-2018 16:54:54 UTC] PHP   1. {main}() /home/ubuntu/workspace/csu/MidtermPractice/program2.php:0
+[28-Mar-2018 16:54:54 UTC] PHP Fatal error:  Call to undefined function getConnection() in /home/ubuntu/workspace/csu/MidtermPractice/program2.php on line 4
+[28-Mar-2018 16:54:54 UTC] PHP Stack trace:
+[28-Mar-2018 16:54:54 UTC] PHP   1. {main}() /home/ubuntu/workspace/csu/MidtermPractice/program2.php:0
+[28-Mar-2018 16:55:10 UTC] PHP Fatal error:  Call to undefined function getConnection() in /home/ubuntu/workspace/csu/MidtermPractice/program2.php on line 4
+[28-Mar-2018 16:55:10 UTC] PHP Stack trace:
+[28-Mar-2018 16:55:10 UTC] PHP   1. {main}() /home/ubuntu/workspace/csu/MidtermPractice/program2.php:0
+[28-Mar-2018 21:08:54 UTC] PHP Warning:  include(../../dbConnection.php): failed to open stream: No such file or directory in /home/ubuntu/workspace/csu/Midterm/program2.php on line 3
+[28-Mar-2018 21:08:54 UTC] PHP Stack trace:
+[28-Mar-2018 21:08:54 UTC] PHP   1. {main}() /home/ubuntu/workspace/csu/Midterm/program2.php:0
+[28-Mar-2018 21:08:54 UTC] PHP Warning:  include(): Failed opening '../../dbConnection.php' for inclusion (include_path='.:/usr/share/php:/usr/share/pear') in /home/ubuntu/workspace/csu/Midterm/program2.php on line 3
+[28-Mar-2018 21:08:54 UTC] PHP Stack trace:
+[28-Mar-2018 21:08:54 UTC] PHP   1. {main}() /home/ubuntu/workspace/csu/Midterm/program2.php:0
+[28-Mar-2018 21:08:54 UTC] PHP Fatal error:  Call to undefined function getConnection() in /home/ubuntu/workspace/csu/Midterm/program2.php on line 4
+[28-Mar-2018 21:08:54 UTC] PHP Stack trace:
+[28-Mar-2018 21:08:54 UTC] PHP   1. {main}() /home/ubuntu/workspace/csu/Midterm/program2.php:0
+[28-Mar-2018 21:10:43 UTC] PHP Fatal error:  Call to undefined function getConnection() in /home/ubuntu/workspace/csu/Midterm/program2.php on line 4
+[28-Mar-2018 21:10:43 UTC] PHP Stack trace:
+[28-Mar-2018 21:10:43 UTC] PHP   1. {main}() /home/ubuntu/workspace/csu/Midterm/program2.php:0
+[28-Mar-2018 21:11:07 UTC] PHP Fatal error:  Uncaught exception 'PDOException' with message 'SQLSTATE[42000]: Syntax error or access violation: 1065 Query was empty' in /home/ubuntu/workspace/csu/Midterm/program2.php:13
+Stack trace:
+#0 /home/ubuntu/workspace/csu/Midterm/program2.php(13): PDO->query('')
+#1 {main}
+  thrown in /home/ubuntu/workspace/csu/Midterm/program2.php on line 13
+[28-Mar-2018 21:11:39 UTC] PHP Fatal error:  Uncaught exception 'PDOException' with message 'SQLSTATE[42000]: Syntax error or access violation: 1065 Query was empty' in /home/ubuntu/workspace/csu/Midterm/program2.php:13
+Stack trace:
+#0 /home/ubuntu/workspace/csu/Midterm/program2.php(13): PDO->query('')
+#1 {main}
+  thrown in /home/ubuntu/workspace/csu/Midterm/program2.php on line 13
+[28-Mar-2018 21:13:29 UTC] PHP Fatal error:  Uncaught exception 'PDOException' with message 'SQLSTATE[42000]: Syntax error or access violation: 1065 Query was empty' in /home/ubuntu/workspace/csu/Midterm/program2.php:14
+Stack trace:
+#0 /home/ubuntu/workspace/csu/Midterm/program2.php(14): PDOStatement->execute()
+#1 {main}
+  thrown in /home/ubuntu/workspace/csu/Midterm/program2.php on line 14
+[28-Mar-2018 21:14:46 UTC] PHP Fatal error:  Uncaught exception 'PDOException' with message 'SQLSTATE[42000]: Syntax error or access violation: 1065 Query was empty' in /home/ubuntu/workspace/csu/Midterm/program2.php:13
+Stack trace:
+#0 /home/ubuntu/workspace/csu/Midterm/program2.php(13): PDO->query('')
+#1 {main}
+  thrown in /home/ubuntu/workspace/csu/Midterm/program2.php on line 13

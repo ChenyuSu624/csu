@@ -89,3 +89,52 @@ Stack trace:
 [25-Mar-2018 05:43:48 UTC] PHP Fatal error:  Call to undefined function getProuducts() in /home/ubuntu/workspace/csu/Labs/lab5/index.php on line 14
 [25-Mar-2018 05:43:48 UTC] PHP Stack trace:
 [25-Mar-2018 05:43:48 UTC] PHP   1. {main}() /home/ubuntu/workspace/csu/Labs/lab5/index.php:0
+[26-Mar-2018 22:06:56 UTC] PHP Warning:  include(../../dbConncetion.php): failed to open stream: No such file or directory in /home/ubuntu/workspace/csu/Labs/lab7/loginProcess.php on line 4
+[26-Mar-2018 22:06:56 UTC] PHP Stack trace:
+[26-Mar-2018 22:06:56 UTC] PHP   1. {main}() /home/ubuntu/workspace/csu/Labs/lab7/loginProcess.php:0
+[26-Mar-2018 22:06:56 UTC] PHP Warning:  include(): Failed opening '../../dbConncetion.php' for inclusion (include_path='.:/usr/share/php:/usr/share/pear') in /home/ubuntu/workspace/csu/Labs/lab7/loginProcess.php on line 4
+[26-Mar-2018 22:06:56 UTC] PHP Stack trace:
+[26-Mar-2018 22:06:56 UTC] PHP   1. {main}() /home/ubuntu/workspace/csu/Labs/lab7/loginProcess.php:0
+[26-Mar-2018 22:06:56 UTC] PHP Fatal error:  Call to undefined function getDatabaseConnection() in /home/ubuntu/workspace/csu/Labs/lab7/loginProcess.php on line 6
+[26-Mar-2018 22:06:56 UTC] PHP Stack trace:
+[26-Mar-2018 22:06:56 UTC] PHP   1. {main}() /home/ubuntu/workspace/csu/Labs/lab7/loginProcess.php:0
+[26-Mar-2018 22:09:00 UTC] PHP Warning:  include(../../dbConncetion.php): failed to open stream: No such file or directory in /home/ubuntu/workspace/csu/Labs/lab7/loginProcess.php on line 4
+[26-Mar-2018 22:09:00 UTC] PHP Stack trace:
+[26-Mar-2018 22:09:00 UTC] PHP   1. {main}() /home/ubuntu/workspace/csu/Labs/lab7/loginProcess.php:0
+[26-Mar-2018 22:09:00 UTC] PHP Warning:  include(): Failed opening '../../dbConncetion.php' for inclusion (include_path='.:/usr/share/php:/usr/share/pear') in /home/ubuntu/workspace/csu/Labs/lab7/loginProcess.php on line 4
+[26-Mar-2018 22:09:00 UTC] PHP Stack trace:
+[26-Mar-2018 22:09:00 UTC] PHP   1. {main}() /home/ubuntu/workspace/csu/Labs/lab7/loginProcess.php:0
+[26-Mar-2018 22:09:00 UTC] PHP Fatal error:  Call to undefined function getDatabaseConnection() in /home/ubuntu/workspace/csu/Labs/lab7/loginProcess.php on line 6
+[26-Mar-2018 22:09:00 UTC] PHP Stack trace:
+[26-Mar-2018 22:09:00 UTC] PHP   1. {main}() /home/ubuntu/workspace/csu/Labs/lab7/loginProcess.php:0
+[26-Mar-2018 22:09:12 UTC] PHP Warning:  include(../../dbConncetion.php): failed to open stream: No such file or directory in /home/ubuntu/workspace/csu/Labs/lab7/loginProcess.php on line 4
+[26-Mar-2018 22:09:12 UTC] PHP Stack trace:
+[26-Mar-2018 22:09:12 UTC] PHP   1. {main}() /home/ubuntu/workspace/csu/Labs/lab7/loginProcess.php:0
+[26-Mar-2018 22:09:12 UTC] PHP Warning:  include(): Failed opening '../../dbConncetion.php' for inclusion (include_path='.:/usr/share/php:/usr/share/pear') in /home/ubuntu/workspace/csu/Labs/lab7/loginProcess.php on line 4
+[26-Mar-2018 22:09:12 UTC] PHP Stack trace:
+[26-Mar-2018 22:09:12 UTC] PHP   1. {main}() /home/ubuntu/workspace/csu/Labs/lab7/loginProcess.php:0
+[26-Mar-2018 22:09:12 UTC] PHP Fatal error:  Call to undefined function getDatabaseConnection() in /home/ubuntu/workspace/csu/Labs/lab7/loginProcess.php on line 6
+[26-Mar-2018 22:09:12 UTC] PHP Stack trace:
+[26-Mar-2018 22:09:12 UTC] PHP   1. {main}() /home/ubuntu/workspace/csu/Labs/lab7/loginProcess.php:0
+[26-Mar-2018 22:12:59 UTC] PHP Warning:  include(../../dbConncetion.php): failed to open stream: No such file or directory in /home/ubuntu/workspace/csu/Labs/lab7/loginProcess.php on line 4
+[26-Mar-2018 22:12:59 UTC] PHP Stack trace:
+[26-Mar-2018 22:12:59 UTC] PHP   1. {main}() /home/ubuntu/workspace/csu/Labs/lab7/loginProcess.php:0
+[26-Mar-2018 22:12:59 UTC] PHP Warning:  include(): Failed opening '../../dbConncetion.php' for inclusion (include_path='.:/usr/share/php:/usr/share/pear') in /home/ubuntu/workspace/csu/Labs/lab7/loginProcess.php on line 4
+[26-Mar-2018 22:12:59 UTC] PHP Stack trace:
+[26-Mar-2018 22:12:59 UTC] PHP   1. {main}() /home/ubuntu/workspace/csu/Labs/lab7/loginProcess.php:0
+[26-Mar-2018 22:12:59 UTC] PHP Fatal error:  Call to undefined function getDatabaseConnection() in /home/ubuntu/workspace/csu/Labs/lab7/loginProcess.php on line 6
+[26-Mar-2018 22:12:59 UTC] PHP Stack trace:
+[26-Mar-2018 22:12:59 UTC] PHP   1. {main}() /home/ubuntu/workspace/csu/Labs/lab7/loginProcess.php:0
+[26-Mar-2018 22:29:53 UTC] PHP Fatal error:  Cannot use isset() on the result of an expression (you can use "null !== expression" instead) in /home/ubuntu/workspace/csu/Labs/lab7/admin.php on line 9
+[26-Mar-2018 22:33:29 UTC] PHP Fatal error:  Call to a member function prepare() on a non-object in /home/ubuntu/workspace/csu/Labs/lab7/admin.php on line 10
+[26-Mar-2018 22:33:29 UTC] PHP Stack trace:
+[26-Mar-2018 22:33:29 UTC] PHP   1. {main}() /home/ubuntu/workspace/csu/Labs/lab7/admin.php:0
+[26-Mar-2018 22:33:29 UTC] PHP   2. displayAllProducts() /home/ubuntu/workspace/csu/Labs/lab7/admin.php:32
+[26-Mar-2018 22:35:38 UTC] PHP Fatal error:  Call to a member function prepare() on a non-object in /home/ubuntu/workspace/csu/Labs/lab7/admin.php on line 10
+[26-Mar-2018 22:35:38 UTC] PHP Stack trace:
+[26-Mar-2018 22:35:38 UTC] PHP   1. {main}() /home/ubuntu/workspace/csu/Labs/lab7/admin.php:0
+[26-Mar-2018 22:35:38 UTC] PHP   2. displayAllProducts() /home/ubuntu/workspace/csu/Labs/lab7/admin.php:32
+[26-Mar-2018 22:35:50 UTC] PHP Fatal error:  Call to a member function prepare() on a non-object in /home/ubuntu/workspace/csu/Labs/lab7/admin.php on line 10
+[26-Mar-2018 22:35:50 UTC] PHP Stack trace:
+[26-Mar-2018 22:35:50 UTC] PHP   1. {main}() /home/ubuntu/workspace/csu/Labs/lab7/admin.php:0
+[26-Mar-2018 22:35:50 UTC] PHP   2. displayAllProducts() /home/ubuntu/workspace/csu/Labs/lab7/admin.php:32

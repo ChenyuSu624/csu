@@ -94,6 +94,8 @@
 <html>
     <head>
         <title> OtterMart Product Search </title>
+        <style>@import "css/style.css";</style>
+        
     </head>
     <body>
 
@@ -101,26 +103,29 @@
         
         <form>
             
-            Product: <input type="text" name="product" /><br />
-            
+            Product :  <input type="text" class="resizedTextbox1" name="product" value = "Input text"/><br /><br />
+
             Category: 
-                <select name="category">
+                <select name="category" class="resizedTextbox1">
                     <option value=""> Select One </option>
                     <?=displayCategories()?>
                 </select>
-            <br />
+            <br /><br />
             
-            Price:  From <input type="text" name="priceFrom" size="7"/>
-                    To   <input type="text" name="priceTo" size="7"/>
+            Price:  From <input type="text" class="resizedTextbox2" name="priceFrom" size="7"/>
+                    To  <input type="text"  class="resizedTextbox2"name="priceTo" size="7"/>
                     
-            <br />
+            <br /><br />
             
-             Order result by:<br />
-             
+             Order result by:
+             <div class="radiobox">
+            
+             <input type="radio" name="orderBy" value="name"/> Product Name<br/>
              <input type="radio" name="orderBy" value="price"/> Price <br />
-             <input type="radio" name="orderBy" value="name"/> Name
+             </div>
+             <br /><br />
+             <div class="submit">
              
-             <br />
              <input type="submit" value="Search" name="searchForm" />
              
         </form>

@@ -11,7 +11,7 @@ function displayCart()
             
             echo'<tr>';
             
-            echo "<td><img src = '".$item['img']."'></td>";
+            echo "<td><img src = '". $item['img']. "'></td>";
             echo "<td><h4>".$item['name']."</h4></td>";
             echo "<td><h4>$".$item['price']."</h4></td>";
             
