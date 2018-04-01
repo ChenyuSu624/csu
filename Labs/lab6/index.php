@@ -21,7 +21,6 @@
             echo "<option value='".$record["catId"]."' >" . $record["catName"] . "</option>";
             
         }
-        
     }
     
     function displaySearchResults(){
@@ -81,12 +80,10 @@
                 
                 echo "<a href=\"purchaseHistory.php?productId=".$record["productId"]. "\"> History </a>";
                  echo  $record["productName"] . " " . $record["productDescription"] . " $" . $record["price"] . "<br /><br />";
-                    
             }
         }
         
     }
-
     
 ?>
 
