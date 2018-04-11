@@ -1,5 +1,6 @@
 <?php
-
+    include 'dbConnection.php';
+    $conn=getDatabaseConnection("project");
 function displayCart()
 {
     if(isset($_SESSION['cart'])){
