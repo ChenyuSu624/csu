@@ -8,6 +8,7 @@ body {
     margin:0 auto;
 }
 .table {
+    padding:0;
     margin:0 auto;
     border:3px solid rgba(225, 50, 50, .9);;
 }
@@ -15,13 +16,24 @@ body {
     margin:0 auto;
     border:3px solid rgba(0, 0, 0, 1);
 }
-
+th {
+    font-size: 1.5em;
+    background: rgba(225, 50, 50, .9);
+    color: black;
+    text-align:center;
+    vertical-align:middle;
+}
+td {
+    background: rgba(225, 225, 225, .9);
+}
 #td-text {
     font-size: 2em;
     text-align:center;
     vertical-align:middle;
     color: black;
 }
-form{
-    word-break: break-all;
+#td-cell {
+    width: 10px;
+    text-align:center;
+    vertical-align:middle;
 }

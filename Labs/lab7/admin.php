@@ -17,7 +17,24 @@ function displayAllProducts(){
     
     //print_r($records);
 
-    return $records;
+//     return $records;
+// }
+        if(!empty($records)){
+         echo "<br /><table class='table' > ";
+           echo "   <tr><th><h3>Product</h3></th>
+                        <th><h3>Update</h3></th>
+                        <th><h3>Remove</h3></th></tr>";
+            foreach($records as $record) {
+                echo "<td id='td-text'>".$record['productName']."</td>";
+                echo "<td id='td-cell'><a href='updateProduct.php?productId=".$record['productId']."'>Update</a></td>";
+                //echo "[<a href='deleteProduct.php?productId=".$record['productId']."'>Delete</a>]";
+                echo "<form action='deleteProduct.php' onsubmit='return confirmDelete()'>";
+                echo "<input type='hidden' name='productId' value= " . $record['productId'] . " />";
+                echo "<td id='td-cell'><input type= 'submit' value = 'Remove'></td>";
+                echo "</form></tr>";
+            }
+            echo "</table>";
+        }
 }
 ?>
 
@@ -44,46 +61,20 @@ function displayAllProducts(){
         </script>
     </head>
     <body>
-
-
-        
         <h1> Admin Main Page </h1>
-        
         <h3> Welcome <?=$_SESSION['adminName']?>! </h3>
-        
         <br />
-        <form action="addProduct.php">
+        <form  id = "buttons" action="addProduct.php">
             <input type="submit" name="addproduct" value="Add Product"/>
         </form>
         
-        <form action="logout.php">
+        <form  id = "buttons" action="logout.php">
             <input type="submit" value="Logout"/>
         </form>
-        
-        <br />
-        <table class = "table">
-                <tr><th><h3>Update</h3></th>
-                     <th><h3>Remove</h3></th>
-                     <th><h3>Product</h3></th></tr>
-        </table>
-        <strong> Products: </strong> <br />
-        
-        <?php $records=displayAllProducts();
-        
-            foreach($records as $record) {
-                echo "<tr>";
-                echo "[<a href='updateProduct.php?productId=".$record['productId']."'>Update</a>]";
-                //echo "[<a href='deleteProduct.php?productId=".$record['productId']."'>Delete</a>]";
-                
-                echo "<form action='deleteProduct.php' onsubmit='return confirmDelete()'>";
-                echo "<input type='hidden' name='productId' value= " . $record['productId'] . " />";
-                echo "<input type= 'submit' value = 'Remove'>";
-                echo "</form>";
-                
-                echo "<td id='td-text'>".$record['productName']."</td>";
-                echo "</tr><br>";
-            }
-        
+        <hr>
+        <?php 
+
+            displayAllProducts();
         ?>
     </body>
     <hr>

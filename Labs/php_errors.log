@@ -228,3 +228,14 @@ Stack trace:
 #1 {main}
   thrown in /home/ubuntu/workspace/csu/Labs/lab7/updateProduct.php on line 56
 [15-Apr-2018 06:17:25 UTC] PHP Parse error:  syntax error, unexpected '' (T_ENCAPSED_AND_WHITESPACE), expecting identifier (T_STRING) or variable (T_VARIABLE) or number (T_NUM_STRING) in /home/ubuntu/workspace/csu/Labs/lab7/admin.php on line 87
+[15-Apr-2018 07:06:12 UTC] PHP Fatal error:  Uncaught exception 'PDOException' with message 'SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '' at line 1' in /home/ubuntu/workspace/csu/Labs/lab7/deleteProduct.php:9
+Stack trace:
+#0 /home/ubuntu/workspace/csu/Labs/lab7/deleteProduct.php(9): PDOStatement->execute()
+#1 {main}
+  thrown in /home/ubuntu/workspace/csu/Labs/lab7/deleteProduct.php on line 9
+[15-Apr-2018 07:17:38 UTC] PHP Fatal error:  Uncaught exception 'PDOException' with message 'SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '' at line 1' in /home/ubuntu/workspace/csu/Labs/lab7/updateProduct.php:29
+Stack trace:
+#0 /home/ubuntu/workspace/csu/Labs/lab7/updateProduct.php(29): PDOStatement->execute()
+#1 /home/ubuntu/workspace/csu/Labs/lab7/updateProduct.php(64): getProductInfo()
+#2 {main}
+  thrown in /home/ubuntu/workspace/csu/Labs/lab7/updateProduct.php on line 29

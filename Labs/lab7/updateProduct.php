@@ -71,25 +71,42 @@
 <!DOCTYPE html>
 <html>
     <head>
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+        <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js" integrity="sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa" crossorigin="anonymous"></script>
+        <link href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
+        <link href="css/styles.css" rel="stylesheet" type="text/css" />
         <title>Update Product </title>
         
     </head>
     <body>
         <h1>Update Product</h1>
-        
+        <hr>
+        <div class ="edit-area">
         <form>
             <input type="hidden" name="productId" value= "<?=$product['productId']?>"/>
-            Product name: <input type="text" value = "<?=$product['productName']?>" name="productName"><br>
-            Description: <textarea name="description" cols = 50 rows = 4><?=$product['productDescription']?></textarea><br>
-            Price: <input type="text" name="price" value = "<?=$product['price']?>"><br>
+            Product name: <input type="text" value = "<?=$product['productName']?>" name="productName"><br/><br/>
+            Description: <textarea name="description" cols = 50 rows = 4><?=$product['productDescription']?></textarea><br/><br/>
+            Price: <input type="text" name="price" value = "<?=$product['price']?>"><br/><br/>
     
             Category: <select name="catId">
                 <option>Select One</option>
                 <?php getCategories( $product['catId'] ); ?>
-            </select> <br />
-            Set Image Url: <input type = "text" name = "productImage" value = "<?=$product['productImage']?>"><br>
+            </select> <br/><br/>
+            Set Image Url: <input type = "text" name = "productImage" value = "<?=$product['productImage']?>"><br/><br/>
             <input type="submit" name="updateProduct" value="Update Product">
             
         </form>
+        </div>
     </body>
+    <hr>
+    <div id="foot">
+        <footer>
+            <br /><strong>CST336 Internet Programming. By: Chenyu Su</strong><br />
+            <strong>DISCLAIMER: The information in this webpage is fictitious. <br />
+            It is used for academic purposes only.</strong>
+            <br /><img id="otter" src="img/otter.png" alt="CSUMB Logo" />
+        </footer>
+    </div>
 </html>
