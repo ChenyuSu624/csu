@@ -44,11 +44,10 @@
         $_SESSION["error"] = $error;
         header("location: index.php"); 
     } else {
-        
-        
-            //echo $record['firstName'] . " " . $record['lastName'];
-            $_SESSION['adminName'] = $record['firstName'] . " " . $record['lastName'];
-            header("Location:admin.php");
+    
+        //echo $record['firstName'] . " " . $record['lastName'];
+        $_SESSION['adminName'] = $record['firstName'] . " " . $record['lastName'];
+        header("Location:admin.php");
         
     }
 

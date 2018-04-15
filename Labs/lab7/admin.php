@@ -72,8 +72,7 @@ function displayAllProducts(){
             <input type="submit" value="Logout"/>
         </form>
         <hr>
-        <?php 
-
+        <?php
             displayAllProducts();
         ?>
     </body>
