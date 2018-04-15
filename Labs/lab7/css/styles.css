@@ -1,0 +1,43 @@
+body {
+    background-color: yellow;
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+    background-position: center top;
+    background-size: 100%;
+    text-align:center;
+    margin:0 auto;
+}
+
+.container {
+    font-size: larger;
+    width: 40%;
+    height: 350px;
+    background: rgba(225, 225, 225, .5);
+    border:3px solid rgba(225, 0, 0, 1);
+    vertical-align: middle;
+    margin: 0 auto;
+    padding-bottom: 10px;
+    padding-top: 50px;
+    border-style: dashed;
+    border-radius: 5%;
+    text-align: center;
+}
+input[type=text] {
+    padding: 5px;
+    border-color: black;
+}
+
+input[type=text]:focus{
+    background-color: rgba(200, 200, 200, .9);
+    outline: none;
+}
+
+input[type=password] {
+    padding: 5px;
+    border-color: black;
+}
+
+input[type=password]:focus{
+    background-color: rgba(200, 200, 200, .9);
+    outline: none;
+}

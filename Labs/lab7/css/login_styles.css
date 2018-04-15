@@ -1,0 +1,27 @@
+body {
+    background-color: yellow;
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+    background-position: center top;
+    background-size: 100%;
+    text-align:center;
+    margin:0 auto;
+}
+.table {
+    margin:0 auto;
+    border:3px solid rgba(225, 50, 50, .9);;
+}
+.tableinfo {
+    margin:0 auto;
+    border:3px solid rgba(0, 0, 0, 1);
+}
+
+#td-text {
+    font-size: 2em;
+    text-align:center;
+    vertical-align:middle;
+    color: black;
+}
+form{
+    word-break: break-all;
+}

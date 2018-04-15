@@ -24,6 +24,12 @@ function displayAllProducts(){
 <!DOCTYPE html>
 <html>
     <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+        <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js" integrity="sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa" crossorigin="anonymous"></script>
+        <link href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
+        <link href="css/login_styles.css" rel="stylesheet" type="text/css" />
         <title> Admin Main Page </title>
         <style>
             form{
@@ -55,10 +61,17 @@ function displayAllProducts(){
         </form>
         
         <br />
+        <table class = "table">
+                <tr><th><h3>Update</h3></th>
+                     <th><h3>Remove</h3></th>
+                     <th><h3>Product</h3></th></tr>
+        </table>
         <strong> Products: </strong> <br />
         
         <?php $records=displayAllProducts();
+        
             foreach($records as $record) {
+                echo "<tr>";
                 echo "[<a href='updateProduct.php?productId=".$record['productId']."'>Update</a>]";
                 //echo "[<a href='deleteProduct.php?productId=".$record['productId']."'>Delete</a>]";
                 
@@ -67,13 +80,19 @@ function displayAllProducts(){
                 echo "<input type= 'submit' value = 'Remove'>";
                 echo "</form>";
                 
-                echo $record['productName'];
-                echo '<br>';
+                echo "<td id='td-text'>".$record['productName']."</td>";
+                echo "</tr><br>";
             }
         
         ?>
-        
-        
-
     </body>
+    <hr>
+    <div id="foot">
+        <footer>
+            <br /><strong>CST336 Internet Programming. By: Chenyu Su</strong><br />
+            <strong>DISCLAIMER: The information in this webpage is fictitious. <br />
+            It is used for academic purposes only.</strong>
+            <br /><img id="otter" src="img/otter.png" alt="CSUMB Logo" />
+        </footer>
+    </div>
 </html>

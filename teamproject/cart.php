@@ -49,4 +49,13 @@
                 <?php displayCart(); ?>
         </div>
     </body>
+    <hr>
+    <div id="foot">
+        <footer>
+            <br /><strong>CST336 Internet Programming. By: Chenyu Su</strong><br />
+            <strong>DISCLAIMER: The information in this webpage is fictitious. <br />
+            It is used for academic purposes only.</strong>
+            <br /><img id="otter" src="img/otter.png" alt="CSUMB Logo" />
+        </footer>
+    </div>
 </html>

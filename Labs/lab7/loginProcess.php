@@ -1,6 +1,8 @@
 <?php
 
     session_start();
+    
+    unset($_SESSION["error"]);
 
     //print_r($_POST);  //displays values passed in the form
     
@@ -10,6 +12,7 @@
     
     $username = $_POST['username'];
     $password = sha1($_POST['password']);
+    $error = "Username/Password incorrect... Please enter again.";
     
     //echo $password;
     
@@ -38,9 +41,8 @@
     //print_r($record);
 
     if (empty($record)) {
-        
-        echo "Wrong username or password!";
-        
+        $_SESSION["error"] = $error;
+        header("location: index.php"); 
     } else {
         
         
