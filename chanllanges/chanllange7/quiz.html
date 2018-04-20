@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title> JavaScript Quiz </title>
+        
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+        <script>
+        
+        $(document).ready(function() {
+            $("#submitBtn").click(function() {
+                //alert(  $("#q1").val()  );
+                if( $("#q1").val() == "Sacramento")
+                {
+                    //alert("Corret!");
+                    $("#feedback1").html("Corret! The capital is Sacramento.");
+
+                }
+                else
+                {
+                    //alert("Incorrect.");
+                    $("#feedback1").html("Incorret! The capital is Sacramento.");
+                }
+            
+                 if($("#dropdown").val() == "Vatican City"){
+                      $("#feedback2").html("Corret! The smallest country in the world is Vatican City.");
+                 }else{
+                      $("#feedback2").html("Incorret! The smallest country in the world is Vatican City.");
+                 }
+                 
+             });
+            
+            
+        });
+            
+            
+            
+        </script>
+        
+    </head>
+    
+    <body>
+    1. What is the capital of California?
+    <input id = "q1" type = "text">
+    <div id = "feedback1"></div>
+    <br/>
+    2. What is the smallest country in the world?
+    <select id = "dropdown">
+        <option>Select One</option>
+        <option >Russia</option>
+        <option >Vatican City</option>
+        <option >Janpan</option>
+        <option >US</option>
+    </select>
+
+    <div id = "feedback2"></div>
+        <button id ="submitBtn">Submit Quiz</button>
+    <br/>
+    </body>
+    
+</html>
