@@ -10,26 +10,69 @@
             function validateForm() {
                 
                 return false;
+           
             }
             
         </script>
-    <script>
-        $(document).ready(function(){
         
+        <script>
+            
+            
+            $(document).ready( function(){
+                
                 //EVENTS
-                $("#zipCode").change( function(){ 
-                    // alert($("#zipCode").val() ); 
+                
+                $("#username").change( function(){ 
+                    //alert( $("#username").val() )
+                    
                     $.ajax({
+
                         type: "GET",
-                        url: "http://itcdland.csumb.edu/~milara/ajax/cityInfoByZip.php",
+                        url: "checkUsernameAPI.php",
                         dataType: "json",
-                        data: { "zip": $("#zipCode").val() },
+                        data: { "username": $("#username").val() },
                         success: function(data,status) {
-                            
-                            //alert(data.city);
-                            $("#city").html(data.city);
-                            $("#lati").html(data.latitude);
-                            $("#long").html(data.longitude);
+                             //alert(data);
+                             
+                             if (!data) {  //data == false
+                             
+                                alert("Username is Available");
+                                
+                             } else {
+                                 
+                                alert("Username is ALREADY TAKEN");
+                                 
+                             }
+                             
+                        
+                        },
+                        complete: function(data,status) { //optional, used for debugging purposes
+                        //alert(status);
+                    }
+
+});//ajax
+                    
+                });
+                
+                $("#state").change( function () {
+                    //alert("hi")
+                    //alert( $("#state").val());
+                    
+                    $.ajax({
+
+                        type: "GET",
+                        url: "http://itcdland.csumb.edu/~milara/ajax/countyList.php",
+                        dataType: "json",
+                        data: { "state": $("#state").val()},
+                        success: function(data,status) {
+                        //alert(data[0]['county']);
+                        //alert(data[0].county);
+                        $("#county").html("<option>Select One</option>");
+                        for(var i=0; i<data.length; i++)
+                        {
+                           $("#county").append("<option>" + data[i].county + "</option>"); 
+                        }
+                        
                         },
                         complete: function(data,status) { //optional, used for debugging purposes
                         //alert(status);
@@ -37,35 +80,39 @@
                         
                     });//ajax
                     
-                } ); //zipCode event
-                
-                
-            $("#states").change( function(){ 
-                //alert($("#states").val());
-                $.ajax({
-                    type: "GET",
-                    url: "http://itcdland.csumb.edu/~milara/ajax/countyList.php",
-                    dataType: "json",
-                    data: { "state": $("#states").val() },
-                    success: function(data,status) {
-                    //alert(data[0]['county']);
-                    //alert(data[0].county);
-                    $("#county").html("<option> Select One</option>");
-                    for(var i = 0; i< data.length; i++){
-                        $("#county").append("<option>" + data[i].county + "</option>");
-                    }
-                    },
-                    complete: function(data,status) { //optional, used for debugging purposes
-                    //alert(status);
-                    }
                     
-                    });//ajax
-                
-                
                 });
+                
+                $("#zipCode").change( function(){  
+                    //alert( $("#zipCode").val() );
+                    
+                    $.ajax({
+                        type: "GET",
+                        url: "http://itcdland.csumb.edu/~milara/ajax/cityInfoByZip.php",
+                        dataType: "json",
+                        data: { "zip": $("#zipCode").val() },
+
+                        success: function(data,status) {
+                        
+                           //alert(data.city);
+                           $("#city").html(data.city);
+                        
+                        },
+                        complete: function(data,status) { //optional, used for debugging purposes
+                        //alert(status);
+                        }
+                        
+                    });//ajax
+                    
+                } ); //#zipCode Event 
+
+
+                
             } ); //documentReady
-    </script>
-    
+            
+            
+        </script>
+
     </head>
 
     <body>
@@ -79,15 +126,15 @@
                 Last Name:   <input type="text"><br> 
                 Email:       <input type="text"><br> 
                 Phone Number:<input type="text"><br><br>
-                Zip Code:    <input type="text" id = "zipCode"><br>
-                City: <span id = "city"></span>
+                Zip Code:    <input type="text" id="zipCode"><br>
+                City:        <span id="city"></span>
                 <br>
-                Latitude: <span id = "lati"></span>
+                Latitude: 
                 <br>
-                Longitude:<span id = "long"></span>
+                Longitude:
                 <br><br>
-                State: 
-                <select id = "states">
+                State:     
+                <select id="state">
                     <option value="">Select One</option>
                     <option value="ca"> California</option>
                     <option value="ny"> New York</option>
@@ -95,9 +142,9 @@
                     <option value="va"> Virginia</option>
                 </select><br />
                 
-                Select a County: <select id = "county"></select><br>
+                Select a County: <select id="county"></select><br>
                 
-                Desired Username: <input type="text"><br>
+                Desired Username: <input id="username" type="text"><br>
                 
                 Password: <input type="password"><br>
                 
