@@ -170,7 +170,7 @@
       $sql = "SELECT COUNT(Id) AS NumberOfProducts FROM firearm_product";
         $stmt=$conn->prepare($sql);
         $stmt->execute();
-        $records=$stmt->fetchAll(PDO::FETCH_ASSOC);
+        $records=$stmt->fetch(PDO::FETCH_ASSOC);
         echo $records['NumberOfProducts'];
     }
 
@@ -180,7 +180,7 @@
       $sql = "SELECT SUM(Price) AS Sum FROM firearm_product";
         $stmt=$conn->prepare($sql);
         $stmt->execute();
-        $records=$stmt->fetchAll(PDO::FETCH_ASSOC);
+        $records=$stmt->fetch(PDO::FETCH_ASSOC);
         echo $records['Sum'];
         
     }
@@ -190,7 +190,7 @@
       $sql = "SELECT Sum(Price)/COUNT(Id) AS average FROM firearm_product";
         $stmt=$conn->prepare($sql);
         $stmt->execute();
-        $records=$stmt->fetchAll(PDO::FETCH_ASSOC);
+        $records=$stmt->fetch(PDO::FETCH_ASSOC);
         echo $records['average'];
     }
 ?>
