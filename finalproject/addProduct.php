@@ -71,8 +71,6 @@ if (isset($_GET['submitProduct'])) {
 
    <body>
         <h1> Add a product</h1>
-    <body>
-        <h1>Update Product</h1>
         <hr>
         <div class ="edit-area">
         <form>
