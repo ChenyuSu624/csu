@@ -182,6 +182,7 @@
         $stmt->execute();
         $records=$stmt->fetchAll(PDO::FETCH_ASSOC);
         echo $records['Sum'];
+        
     }
     
     function getAve(){

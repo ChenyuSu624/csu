@@ -2878,3 +2878,33 @@ Stack trace:
 [09-May-2018 10:19:49 UTC] PHP   1. {main}() /home/ubuntu/workspace/csu/finalproject/admin.php:0
 [09-May-2018 10:19:49 UTC] PHP   2. getCounter() /home/ubuntu/workspace/csu/finalproject/admin.php:62
 [09-May-2018 10:19:49 UTC] PHP   3. mysqli_fetch_array() /home/ubuntu/workspace/csu/finalproject/inc/functions.php:175
+[09-May-2018 10:40:45 UTC] PHP Warning:  mysql_query(): Access denied for user ''@'localhost' (using password: NO) in /home/ubuntu/workspace/csu/finalproject/inc/functions.php on line 175
+[09-May-2018 10:40:45 UTC] PHP Stack trace:
+[09-May-2018 10:40:45 UTC] PHP   1. {main}() /home/ubuntu/workspace/csu/finalproject/admin.php:0
+[09-May-2018 10:40:45 UTC] PHP   2. getCounter() /home/ubuntu/workspace/csu/finalproject/admin.php:62
+[09-May-2018 10:40:45 UTC] PHP   3. mysql_query() /home/ubuntu/workspace/csu/finalproject/inc/functions.php:175
+[09-May-2018 10:40:45 UTC] PHP Warning:  mysql_query(): A link to the server could not be established in /home/ubuntu/workspace/csu/finalproject/inc/functions.php on line 175
+[09-May-2018 10:40:45 UTC] PHP Stack trace:
+[09-May-2018 10:40:45 UTC] PHP   1. {main}() /home/ubuntu/workspace/csu/finalproject/admin.php:0
+[09-May-2018 10:40:45 UTC] PHP   2. getCounter() /home/ubuntu/workspace/csu/finalproject/admin.php:62
+[09-May-2018 10:40:45 UTC] PHP   3. mysql_query() /home/ubuntu/workspace/csu/finalproject/inc/functions.php:175
+[09-May-2018 10:40:45 UTC] PHP Warning:  mysql_fetch_assoc() expects parameter 1 to be resource, boolean given in /home/ubuntu/workspace/csu/finalproject/inc/functions.php on line 176
+[09-May-2018 10:40:45 UTC] PHP Stack trace:
+[09-May-2018 10:40:45 UTC] PHP   1. {main}() /home/ubuntu/workspace/csu/finalproject/admin.php:0
+[09-May-2018 10:40:45 UTC] PHP   2. getCounter() /home/ubuntu/workspace/csu/finalproject/admin.php:62
+[09-May-2018 10:40:45 UTC] PHP   3. mysql_fetch_assoc() /home/ubuntu/workspace/csu/finalproject/inc/functions.php:176
+[09-May-2018 10:42:39 UTC] PHP Warning:  mysql_query(): Access denied for user ''@'localhost' (using password: NO) in /home/ubuntu/workspace/csu/finalproject/inc/functions.php on line 175
+[09-May-2018 10:42:39 UTC] PHP Stack trace:
+[09-May-2018 10:42:39 UTC] PHP   1. {main}() /home/ubuntu/workspace/csu/finalproject/admin.php:0
+[09-May-2018 10:42:39 UTC] PHP   2. getCounter() /home/ubuntu/workspace/csu/finalproject/admin.php:62
+[09-May-2018 10:42:39 UTC] PHP   3. mysql_query() /home/ubuntu/workspace/csu/finalproject/inc/functions.php:175
+[09-May-2018 10:42:39 UTC] PHP Warning:  mysql_query(): A link to the server could not be established in /home/ubuntu/workspace/csu/finalproject/inc/functions.php on line 175
+[09-May-2018 10:42:39 UTC] PHP Stack trace:
+[09-May-2018 10:42:39 UTC] PHP   1. {main}() /home/ubuntu/workspace/csu/finalproject/admin.php:0
+[09-May-2018 10:42:39 UTC] PHP   2. getCounter() /home/ubuntu/workspace/csu/finalproject/admin.php:62
+[09-May-2018 10:42:39 UTC] PHP   3. mysql_query() /home/ubuntu/workspace/csu/finalproject/inc/functions.php:175
+[09-May-2018 10:42:39 UTC] PHP Warning:  mysql_num_rows() expects parameter 1 to be resource, boolean given in /home/ubuntu/workspace/csu/finalproject/inc/functions.php on line 176
+[09-May-2018 10:42:39 UTC] PHP Stack trace:
+[09-May-2018 10:42:39 UTC] PHP   1. {main}() /home/ubuntu/workspace/csu/finalproject/admin.php:0
+[09-May-2018 10:42:39 UTC] PHP   2. getCounter() /home/ubuntu/workspace/csu/finalproject/admin.php:62
+[09-May-2018 10:42:39 UTC] PHP   3. mysql_num_rows() /home/ubuntu/workspace/csu/finalproject/inc/functions.php:176
