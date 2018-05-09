@@ -1,0 +1,66 @@
+ body {
+       background-image: url("../img/background.jpg");
+       background-size: 100% 100%;
+       background-attachment: fixed;
+       text-align: center;
+       color:white;
+       margin: auto;
+       width: auto;
+       height: auto;
+
+ }
+ form{
+    border-color: white;
+    background-color: gray;
+    border-style: dotted;
+    width:35%;
+    margin: auto;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    margin-top: 2%;
+    margin-bottom: 2%;
+    background-color: gray;
+
+ }
+hr 
+{
+    width: 100%;
+    border-color: white;
+    background-color: gray;
+    border-style: dotted;
+    height:2px;
+}
+
+h2{
+    color:red;
+}
+.table {
+    margin:0 auto;
+    width:50%;
+    border:3px solid rgba(0, 0, 0, 1);;
+}
+.tableinfo {
+    margin:0 auto;
+    width:50%;
+    border:3px solid rgba(0, 0, 0, 1);
+}
+.details{
+    background-color:white;
+    width:35%;
+    margin:auto;
+    color:black;
+    margin-top:4%;
+}
+
+.radiobox{
+    float:auto;
+    display:inline-block;
+    font-size: 1em;
+    vertical-align: middle;
+    text-align: left;
+}
+
+.modal .modal-dialog .modal-content{  
+    background-color: #d4c484; 
+    
+}

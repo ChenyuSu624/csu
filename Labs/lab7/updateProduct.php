@@ -33,6 +33,8 @@
     }
     
     
+    
+    
     if (isset($_GET['updateProduct'])) {
         
         //echo "Trying to update the product!";

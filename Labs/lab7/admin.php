@@ -1,5 +1,4 @@
 <?php
-
 session_start();
 if(!isset( $_SESSION['adminName']))
 {
@@ -7,7 +6,6 @@ if(!isset( $_SESSION['adminName']))
 }
 include '../../dbConnection.php';
 $conn = getDatabaseConnection("ottermart");
-
 function displayAllProducts(){
     global $conn;
     $sql="SELECT * FROM om_product";
@@ -16,7 +14,6 @@ function displayAllProducts(){
     $records = $statement->fetchAll(PDO::FETCH_ASSOC);
     
     //print_r($records);
-
 //     return $records;
 // }
         if(!empty($records)){
@@ -71,6 +68,7 @@ function displayAllProducts(){
         <form  id = "buttons" action="logout.php">
             <input type="submit" value="Logout"/>
         </form>
+
         <hr>
         <?php
             displayAllProducts();

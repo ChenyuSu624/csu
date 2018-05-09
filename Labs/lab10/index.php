@@ -1,5 +1,4 @@
 <?php
-
     include 'inc/header.php';
     include '../../dbConnection.php';
     
@@ -12,7 +11,6 @@
             height:auto;
             margin: 0 auto; /* center a div container*/
         }
-
         </style>
         <!-- Add Carousel here -->
         <div id="carouselExampleIndicators" class="carousel slide" data-ride="carousel">
@@ -73,7 +71,5 @@
         
 
 <?php
-
     include 'inc/footer.php';
-
 ?>

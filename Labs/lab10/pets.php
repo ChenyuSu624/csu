@@ -1,5 +1,4 @@
 <?php
-
     include 'inc/header.php';
     
     include '../../dbConnection.php';
@@ -32,7 +31,6 @@
                 $("#petInfo").html("<img src='img/loading.gif'>");
                 
                 $.ajax({
-
                     type: "GET",
                     url: "api/getPetInfo.php",
                     dataType: "json",
@@ -77,7 +75,6 @@
         echo "Type: " . $pet['type'] . "<br><br>";
         
     }
-
 ?>
 
 
@@ -112,7 +109,5 @@
 
 
 <?php
-
     include 'inc/footer.php';
-
 ?>

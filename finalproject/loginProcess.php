@@ -2,28 +2,17 @@
     session_start();
     
     unset($_SESSION["error"]);
-    //print_r($_POST);  //displays values passed in the form
     
-    include '../../dbConnection.php';
+    include 'dbConnection.php';
     
-    $conn = getDatabaseConnection("ottermart");
+    $conn = getDatabaseConnection("final_project");
     
     $username = $_POST['username'];
     $password = sha1($_POST['password']);
     $error = "Username/Password incorrect... Please enter again.";
     
-    //echo $password;
-    
-    
-    //following sql does not prevent SQL injection
     $sql = "SELECT * 
-            FROM om_admin
-            WHERE username = '$username'
-            AND   password = '$password'";
-            
-    //following sql prevents sql injection by avoiding using single quotes        
-    $sql = "SELECT * 
-            FROM om_admin
+            FROM admin
             WHERE username = :username
             AND   password = :password";    
             
@@ -34,15 +23,13 @@
             
     $stmt = $conn->prepare($sql);
     $stmt->execute($np);
-    $record = $stmt->fetch(PDO::FETCH_ASSOC); //expecting one single record
+    $record = $stmt->fetch(PDO::FETCH_ASSOC);
     
-    //print_r($record);
     if (empty($record)) {
         $_SESSION["error"] = $error;
-        header("location: index.php"); 
+        header("location: loginPage.php"); 
     } else {
     
-        //echo $record['firstName'] . " " . $record['lastName'];
         $_SESSION['adminName'] = $record['firstName'] . " " . $record['lastName'];
         header("Location:admin.php");
         

@@ -34,7 +34,7 @@
             $namedParameters= array();
             $sql= "SELECT * FROM `movie_products` WHERE 1";
              if(!empty($_GET['product'])){
-                $sql.=" and name LIKE :name" ;
+                $sql.=" and Name LIKE :name" ;
                 $namedParameters[":name"]= "%" . $_GET['product'] . "%";
             }
             if(!empty($_GET['category'])){

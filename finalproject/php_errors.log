@@ -1,0 +1,549 @@
+[09-May-2018 03:34:27 UTC] PHP Warning:  include(dbConnection.php): failed to open stream: No such file or directory in /home/ubuntu/workspace/csu/finalproject/api/getGun.php on line 3
+[09-May-2018 03:34:27 UTC] PHP Stack trace:
+[09-May-2018 03:34:27 UTC] PHP   1. {main}() /home/ubuntu/workspace/csu/finalproject/api/getGun.php:0
+[09-May-2018 03:34:27 UTC] PHP Warning:  include(): Failed opening 'dbConnection.php' for inclusion (include_path='.:/usr/share/php:/usr/share/pear') in /home/ubuntu/workspace/csu/finalproject/api/getGun.php on line 3
+[09-May-2018 03:34:27 UTC] PHP Stack trace:
+[09-May-2018 03:34:27 UTC] PHP   1. {main}() /home/ubuntu/workspace/csu/finalproject/api/getGun.php:0
+[09-May-2018 03:34:27 UTC] PHP Fatal error:  Call to undefined function getDatabaseConnection() in /home/ubuntu/workspace/csu/finalproject/api/getGun.php on line 5
+[09-May-2018 03:34:27 UTC] PHP Stack trace:
+[09-May-2018 03:34:27 UTC] PHP   1. {main}() /home/ubuntu/workspace/csu/finalproject/api/getGun.php:0
+[09-May-2018 03:34:32 UTC] PHP Warning:  include(dbConnection.php): failed to open stream: No such file or directory in /home/ubuntu/workspace/csu/finalproject/api/getGun.php on line 3
+[09-May-2018 03:34:32 UTC] PHP Stack trace:
+[09-May-2018 03:34:32 UTC] PHP   1. {main}() /home/ubuntu/workspace/csu/finalproject/api/getGun.php:0
+[09-May-2018 03:34:32 UTC] PHP Warning:  include(): Failed opening 'dbConnection.php' for inclusion (include_path='.:/usr/share/php:/usr/share/pear') in /home/ubuntu/workspace/csu/finalproject/api/getGun.php on line 3
+[09-May-2018 03:34:32 UTC] PHP Stack trace:
+[09-May-2018 03:34:32 UTC] PHP   1. {main}() /home/ubuntu/workspace/csu/finalproject/api/getGun.php:0
+[09-May-2018 03:34:32 UTC] PHP Fatal error:  Call to undefined function getDatabaseConnection() in /home/ubuntu/workspace/csu/finalproject/api/getGun.php on line 5
+[09-May-2018 03:34:32 UTC] PHP Stack trace:
+[09-May-2018 03:34:32 UTC] PHP   1. {main}() /home/ubuntu/workspace/csu/finalproject/api/getGun.php:0
+[09-May-2018 05:59:12 UTC] PHP Warning:  include(dbConnection.php): failed to open stream: No such file or directory in /home/ubuntu/workspace/csu/finalproject/api/getGun.php on line 3
+[09-May-2018 05:59:12 UTC] PHP Stack trace:
+[09-May-2018 05:59:12 UTC] PHP   1. {main}() /home/ubuntu/workspace/csu/finalproject/api/getGun.php:0
+[09-May-2018 05:59:12 UTC] PHP Warning:  include(): Failed opening 'dbConnection.php' for inclusion (include_path='.:/usr/share/php:/usr/share/pear') in /home/ubuntu/workspace/csu/finalproject/api/getGun.php on line 3
+[09-May-2018 05:59:12 UTC] PHP Stack trace:
+[09-May-2018 05:59:12 UTC] PHP   1. {main}() /home/ubuntu/workspace/csu/finalproject/api/getGun.php:0
+[09-May-2018 05:59:12 UTC] PHP Fatal error:  Call to undefined function getDatabaseConnection() in /home/ubuntu/workspace/csu/finalproject/api/getGun.php on line 5
+[09-May-2018 05:59:12 UTC] PHP Stack trace:
+[09-May-2018 05:59:12 UTC] PHP   1. {main}() /home/ubuntu/workspace/csu/finalproject/api/getGun.php:0
+[09-May-2018 06:01:10 UTC] PHP Warning:  include(dbConnection.php): failed to open stream: No such file or directory in /home/ubuntu/workspace/csu/finalproject/api/getGun.php on line 3
+[09-May-2018 06:01:10 UTC] PHP Stack trace:
+[09-May-2018 06:01:10 UTC] PHP   1. {main}() /home/ubuntu/workspace/csu/finalproject/api/getGun.php:0
+[09-May-2018 06:01:10 UTC] PHP Warning:  include(): Failed opening 'dbConnection.php' for inclusion (include_path='.:/usr/share/php:/usr/share/pear') in /home/ubuntu/workspace/csu/finalproject/api/getGun.php on line 3
+[09-May-2018 06:01:10 UTC] PHP Stack trace:
+[09-May-2018 06:01:10 UTC] PHP   1. {main}() /home/ubuntu/workspace/csu/finalproject/api/getGun.php:0
+[09-May-2018 06:01:10 UTC] PHP Fatal error:  Call to undefined function getDatabaseConnection() in /home/ubuntu/workspace/csu/finalproject/api/getGun.php on line 5
+[09-May-2018 06:01:10 UTC] PHP Stack trace:
+[09-May-2018 06:01:10 UTC] PHP   1. {main}() /home/ubuntu/workspace/csu/finalproject/api/getGun.php:0
+[09-May-2018 06:01:15 UTC] PHP Warning:  include(dbConnection.php): failed to open stream: No such file or directory in /home/ubuntu/workspace/csu/finalproject/api/getGun.php on line 3
+[09-May-2018 06:01:15 UTC] PHP Stack trace:
+[09-May-2018 06:01:15 UTC] PHP   1. {main}() /home/ubuntu/workspace/csu/finalproject/api/getGun.php:0
+[09-May-2018 06:01:15 UTC] PHP Warning:  include(): Failed opening 'dbConnection.php' for inclusion (include_path='.:/usr/share/php:/usr/share/pear') in /home/ubuntu/workspace/csu/finalproject/api/getGun.php on line 3
+[09-May-2018 06:01:15 UTC] PHP Stack trace:
+[09-May-2018 06:01:15 UTC] PHP   1. {main}() /home/ubuntu/workspace/csu/finalproject/api/getGun.php:0
+[09-May-2018 06:01:15 UTC] PHP Fatal error:  Call to undefined function getDatabaseConnection() in /home/ubuntu/workspace/csu/finalproject/api/getGun.php on line 5
+[09-May-2018 06:01:15 UTC] PHP Stack trace:
+[09-May-2018 06:01:15 UTC] PHP   1. {main}() /home/ubuntu/workspace/csu/finalproject/api/getGun.php:0
+[09-May-2018 06:02:25 UTC] PHP Warning:  include(dbConnection.php): failed to open stream: No such file or directory in /home/ubuntu/workspace/csu/finalproject/api/getGun.php on line 3
+[09-May-2018 06:02:25 UTC] PHP Stack trace:
+[09-May-2018 06:02:25 UTC] PHP   1. {main}() /home/ubuntu/workspace/csu/finalproject/api/getGun.php:0
+[09-May-2018 06:02:25 UTC] PHP Warning:  include(): Failed opening 'dbConnection.php' for inclusion (include_path='.:/usr/share/php:/usr/share/pear') in /home/ubuntu/workspace/csu/finalproject/api/getGun.php on line 3
+[09-May-2018 06:02:25 UTC] PHP Stack trace:
+[09-May-2018 06:02:25 UTC] PHP   1. {main}() /home/ubuntu/workspace/csu/finalproject/api/getGun.php:0
+[09-May-2018 06:02:25 UTC] PHP Fatal error:  Call to undefined function getDatabaseConnection() in /home/ubuntu/workspace/csu/finalproject/api/getGun.php on line 5
+[09-May-2018 06:02:25 UTC] PHP Stack trace:
+[09-May-2018 06:02:25 UTC] PHP   1. {main}() /home/ubuntu/workspace/csu/finalproject/api/getGun.php:0
+[09-May-2018 06:02:30 UTC] PHP Warning:  include(dbConnection.php): failed to open stream: No such file or directory in /home/ubuntu/workspace/csu/finalproject/api/getGun.php on line 3
+[09-May-2018 06:02:30 UTC] PHP Stack trace:
+[09-May-2018 06:02:30 UTC] PHP   1. {main}() /home/ubuntu/workspace/csu/finalproject/api/getGun.php:0
+[09-May-2018 06:02:30 UTC] PHP Warning:  include(): Failed opening 'dbConnection.php' for inclusion (include_path='.:/usr/share/php:/usr/share/pear') in /home/ubuntu/workspace/csu/finalproject/api/getGun.php on line 3
+[09-May-2018 06:02:30 UTC] PHP Stack trace:
+[09-May-2018 06:02:30 UTC] PHP   1. {main}() /home/ubuntu/workspace/csu/finalproject/api/getGun.php:0
+[09-May-2018 06:02:30 UTC] PHP Fatal error:  Call to undefined function getDatabaseConnection() in /home/ubuntu/workspace/csu/finalproject/api/getGun.php on line 5
+[09-May-2018 06:02:30 UTC] PHP Stack trace:
+[09-May-2018 06:02:30 UTC] PHP   1. {main}() /home/ubuntu/workspace/csu/finalproject/api/getGun.php:0
+[09-May-2018 06:05:32 UTC] PHP Warning:  include(dbConnection.php): failed to open stream: No such file or directory in /home/ubuntu/workspace/csu/finalproject/api/getGun.php on line 3
+[09-May-2018 06:05:32 UTC] PHP Stack trace:
+[09-May-2018 06:05:32 UTC] PHP   1. {main}() /home/ubuntu/workspace/csu/finalproject/api/getGun.php:0
+[09-May-2018 06:05:32 UTC] PHP Warning:  include(): Failed opening 'dbConnection.php' for inclusion (include_path='.:/usr/share/php:/usr/share/pear') in /home/ubuntu/workspace/csu/finalproject/api/getGun.php on line 3
+[09-May-2018 06:05:32 UTC] PHP Stack trace:
+[09-May-2018 06:05:32 UTC] PHP   1. {main}() /home/ubuntu/workspace/csu/finalproject/api/getGun.php:0
+[09-May-2018 06:05:32 UTC] PHP Fatal error:  Call to undefined function getDatabaseConnection() in /home/ubuntu/workspace/csu/finalproject/api/getGun.php on line 5
+[09-May-2018 06:05:32 UTC] PHP Stack trace:
+[09-May-2018 06:05:32 UTC] PHP   1. {main}() /home/ubuntu/workspace/csu/finalproject/api/getGun.php:0
+[09-May-2018 06:05:37 UTC] PHP Warning:  include(dbConnection.php): failed to open stream: No such file or directory in /home/ubuntu/workspace/csu/finalproject/api/getGun.php on line 3
+[09-May-2018 06:05:37 UTC] PHP Stack trace:
+[09-May-2018 06:05:37 UTC] PHP   1. {main}() /home/ubuntu/workspace/csu/finalproject/api/getGun.php:0
+[09-May-2018 06:05:37 UTC] PHP Warning:  include(): Failed opening 'dbConnection.php' for inclusion (include_path='.:/usr/share/php:/usr/share/pear') in /home/ubuntu/workspace/csu/finalproject/api/getGun.php on line 3
+[09-May-2018 06:05:37 UTC] PHP Stack trace:
+[09-May-2018 06:05:37 UTC] PHP   1. {main}() /home/ubuntu/workspace/csu/finalproject/api/getGun.php:0
+[09-May-2018 06:05:37 UTC] PHP Fatal error:  Call to undefined function getDatabaseConnection() in /home/ubuntu/workspace/csu/finalproject/api/getGun.php on line 5
+[09-May-2018 06:05:37 UTC] PHP Stack trace:
+[09-May-2018 06:05:37 UTC] PHP   1. {main}() /home/ubuntu/workspace/csu/finalproject/api/getGun.php:0
+[09-May-2018 06:06:57 UTC] PHP Warning:  include(dbConnection.php): failed to open stream: No such file or directory in /home/ubuntu/workspace/csu/finalproject/api/getGun.php on line 3
+[09-May-2018 06:06:57 UTC] PHP Stack trace:
+[09-May-2018 06:06:57 UTC] PHP   1. {main}() /home/ubuntu/workspace/csu/finalproject/api/getGun.php:0
+[09-May-2018 06:06:57 UTC] PHP Warning:  include(): Failed opening 'dbConnection.php' for inclusion (include_path='.:/usr/share/php:/usr/share/pear') in /home/ubuntu/workspace/csu/finalproject/api/getGun.php on line 3
+[09-May-2018 06:06:57 UTC] PHP Stack trace:
+[09-May-2018 06:06:57 UTC] PHP   1. {main}() /home/ubuntu/workspace/csu/finalproject/api/getGun.php:0
+[09-May-2018 06:06:57 UTC] PHP Fatal error:  Call to undefined function getDatabaseConnection() in /home/ubuntu/workspace/csu/finalproject/api/getGun.php on line 5
+[09-May-2018 06:06:57 UTC] PHP Stack trace:
+[09-May-2018 06:06:57 UTC] PHP   1. {main}() /home/ubuntu/workspace/csu/finalproject/api/getGun.php:0
+[09-May-2018 06:31:12 UTC] PHP Warning:  include(dbConnection.php): failed to open stream: No such file or directory in /home/ubuntu/workspace/csu/finalproject/api/getGun.php on line 3
+[09-May-2018 06:31:12 UTC] PHP Stack trace:
+[09-May-2018 06:31:12 UTC] PHP   1. {main}() /home/ubuntu/workspace/csu/finalproject/api/getGun.php:0
+[09-May-2018 06:31:12 UTC] PHP Warning:  include(): Failed opening 'dbConnection.php' for inclusion (include_path='.:/usr/share/php:/usr/share/pear') in /home/ubuntu/workspace/csu/finalproject/api/getGun.php on line 3
+[09-May-2018 06:31:12 UTC] PHP Stack trace:
+[09-May-2018 06:31:12 UTC] PHP   1. {main}() /home/ubuntu/workspace/csu/finalproject/api/getGun.php:0
+[09-May-2018 06:31:12 UTC] PHP Fatal error:  Call to undefined function getDatabaseConnection() in /home/ubuntu/workspace/csu/finalproject/api/getGun.php on line 5
+[09-May-2018 06:31:12 UTC] PHP Stack trace:
+[09-May-2018 06:31:12 UTC] PHP   1. {main}() /home/ubuntu/workspace/csu/finalproject/api/getGun.php:0
+[09-May-2018 06:31:30 UTC] PHP Warning:  include(dbConnection.php): failed to open stream: No such file or directory in /home/ubuntu/workspace/csu/finalproject/api/getGun.php on line 3
+[09-May-2018 06:31:30 UTC] PHP Stack trace:
+[09-May-2018 06:31:30 UTC] PHP   1. {main}() /home/ubuntu/workspace/csu/finalproject/api/getGun.php:0
+[09-May-2018 06:31:30 UTC] PHP Warning:  include(): Failed opening 'dbConnection.php' for inclusion (include_path='.:/usr/share/php:/usr/share/pear') in /home/ubuntu/workspace/csu/finalproject/api/getGun.php on line 3
+[09-May-2018 06:31:30 UTC] PHP Stack trace:
+[09-May-2018 06:31:30 UTC] PHP   1. {main}() /home/ubuntu/workspace/csu/finalproject/api/getGun.php:0
+[09-May-2018 06:31:30 UTC] PHP Fatal error:  Call to undefined function getDatabaseConnection() in /home/ubuntu/workspace/csu/finalproject/api/getGun.php on line 5
+[09-May-2018 06:31:30 UTC] PHP Stack trace:
+[09-May-2018 06:31:30 UTC] PHP   1. {main}() /home/ubuntu/workspace/csu/finalproject/api/getGun.php:0
+[09-May-2018 06:34:49 UTC] PHP Warning:  include(dbConnection.php): failed to open stream: No such file or directory in /home/ubuntu/workspace/csu/finalproject/api/getGun.php on line 3
+[09-May-2018 06:34:49 UTC] PHP Stack trace:
+[09-May-2018 06:34:49 UTC] PHP   1. {main}() /home/ubuntu/workspace/csu/finalproject/api/getGun.php:0
+[09-May-2018 06:34:49 UTC] PHP Warning:  include(): Failed opening 'dbConnection.php' for inclusion (include_path='.:/usr/share/php:/usr/share/pear') in /home/ubuntu/workspace/csu/finalproject/api/getGun.php on line 3
+[09-May-2018 06:34:49 UTC] PHP Stack trace:
+[09-May-2018 06:34:49 UTC] PHP   1. {main}() /home/ubuntu/workspace/csu/finalproject/api/getGun.php:0
+[09-May-2018 06:34:49 UTC] PHP Fatal error:  Call to undefined function getDatabaseConnection() in /home/ubuntu/workspace/csu/finalproject/api/getGun.php on line 5
+[09-May-2018 06:34:49 UTC] PHP Stack trace:
+[09-May-2018 06:34:49 UTC] PHP   1. {main}() /home/ubuntu/workspace/csu/finalproject/api/getGun.php:0
+[09-May-2018 06:34:50 UTC] PHP Warning:  include(dbConnection.php): failed to open stream: No such file or directory in /home/ubuntu/workspace/csu/finalproject/api/getGun.php on line 3
+[09-May-2018 06:34:50 UTC] PHP Stack trace:
+[09-May-2018 06:34:50 UTC] PHP   1. {main}() /home/ubuntu/workspace/csu/finalproject/api/getGun.php:0
+[09-May-2018 06:34:50 UTC] PHP Warning:  include(): Failed opening 'dbConnection.php' for inclusion (include_path='.:/usr/share/php:/usr/share/pear') in /home/ubuntu/workspace/csu/finalproject/api/getGun.php on line 3
+[09-May-2018 06:34:50 UTC] PHP Stack trace:
+[09-May-2018 06:34:50 UTC] PHP   1. {main}() /home/ubuntu/workspace/csu/finalproject/api/getGun.php:0
+[09-May-2018 06:34:50 UTC] PHP Fatal error:  Call to undefined function getDatabaseConnection() in /home/ubuntu/workspace/csu/finalproject/api/getGun.php on line 5
+[09-May-2018 06:34:50 UTC] PHP Stack trace:
+[09-May-2018 06:34:50 UTC] PHP   1. {main}() /home/ubuntu/workspace/csu/finalproject/api/getGun.php:0
+[09-May-2018 06:35:20 UTC] PHP Warning:  include(dbConnection.php): failed to open stream: No such file or directory in /home/ubuntu/workspace/csu/finalproject/api/getGun.php on line 3
+[09-May-2018 06:35:20 UTC] PHP Stack trace:
+[09-May-2018 06:35:20 UTC] PHP   1. {main}() /home/ubuntu/workspace/csu/finalproject/api/getGun.php:0
+[09-May-2018 06:35:20 UTC] PHP Warning:  include(): Failed opening 'dbConnection.php' for inclusion (include_path='.:/usr/share/php:/usr/share/pear') in /home/ubuntu/workspace/csu/finalproject/api/getGun.php on line 3
+[09-May-2018 06:35:20 UTC] PHP Stack trace:
+[09-May-2018 06:35:20 UTC] PHP   1. {main}() /home/ubuntu/workspace/csu/finalproject/api/getGun.php:0
+[09-May-2018 06:35:20 UTC] PHP Fatal error:  Call to undefined function getDatabaseConnection() in /home/ubuntu/workspace/csu/finalproject/api/getGun.php on line 5
+[09-May-2018 06:35:20 UTC] PHP Stack trace:
+[09-May-2018 06:35:20 UTC] PHP   1. {main}() /home/ubuntu/workspace/csu/finalproject/api/getGun.php:0
+[09-May-2018 06:35:20 UTC] PHP Warning:  include(dbConnection.php): failed to open stream: No such file or directory in /home/ubuntu/workspace/csu/finalproject/api/getGun.php on line 3
+[09-May-2018 06:35:20 UTC] PHP Stack trace:
+[09-May-2018 06:35:20 UTC] PHP   1. {main}() /home/ubuntu/workspace/csu/finalproject/api/getGun.php:0
+[09-May-2018 06:35:20 UTC] PHP Warning:  include(): Failed opening 'dbConnection.php' for inclusion (include_path='.:/usr/share/php:/usr/share/pear') in /home/ubuntu/workspace/csu/finalproject/api/getGun.php on line 3
+[09-May-2018 06:35:20 UTC] PHP Stack trace:
+[09-May-2018 06:35:20 UTC] PHP   1. {main}() /home/ubuntu/workspace/csu/finalproject/api/getGun.php:0
+[09-May-2018 06:35:20 UTC] PHP Fatal error:  Call to undefined function getDatabaseConnection() in /home/ubuntu/workspace/csu/finalproject/api/getGun.php on line 5
+[09-May-2018 06:35:20 UTC] PHP Stack trace:
+[09-May-2018 06:35:20 UTC] PHP   1. {main}() /home/ubuntu/workspace/csu/finalproject/api/getGun.php:0
+[09-May-2018 06:36:53 UTC] PHP Warning:  include(dbConnection.php): failed to open stream: No such file or directory in /home/ubuntu/workspace/csu/finalproject/api/getGun.php on line 3
+[09-May-2018 06:36:53 UTC] PHP Stack trace:
+[09-May-2018 06:36:53 UTC] PHP   1. {main}() /home/ubuntu/workspace/csu/finalproject/api/getGun.php:0
+[09-May-2018 06:36:53 UTC] PHP Warning:  include(): Failed opening 'dbConnection.php' for inclusion (include_path='.:/usr/share/php:/usr/share/pear') in /home/ubuntu/workspace/csu/finalproject/api/getGun.php on line 3
+[09-May-2018 06:36:53 UTC] PHP Stack trace:
+[09-May-2018 06:36:53 UTC] PHP   1. {main}() /home/ubuntu/workspace/csu/finalproject/api/getGun.php:0
+[09-May-2018 06:36:53 UTC] PHP Fatal error:  Call to undefined function getDatabaseConnection() in /home/ubuntu/workspace/csu/finalproject/api/getGun.php on line 5
+[09-May-2018 06:36:53 UTC] PHP Stack trace:
+[09-May-2018 06:36:53 UTC] PHP   1. {main}() /home/ubuntu/workspace/csu/finalproject/api/getGun.php:0
+[09-May-2018 06:36:53 UTC] PHP Warning:  include(dbConnection.php): failed to open stream: No such file or directory in /home/ubuntu/workspace/csu/finalproject/api/getGun.php on line 3
+[09-May-2018 06:36:53 UTC] PHP Stack trace:
+[09-May-2018 06:36:53 UTC] PHP   1. {main}() /home/ubuntu/workspace/csu/finalproject/api/getGun.php:0
+[09-May-2018 06:36:53 UTC] PHP Warning:  include(): Failed opening 'dbConnection.php' for inclusion (include_path='.:/usr/share/php:/usr/share/pear') in /home/ubuntu/workspace/csu/finalproject/api/getGun.php on line 3
+[09-May-2018 06:36:53 UTC] PHP Stack trace:
+[09-May-2018 06:36:53 UTC] PHP   1. {main}() /home/ubuntu/workspace/csu/finalproject/api/getGun.php:0
+[09-May-2018 06:36:53 UTC] PHP Fatal error:  Call to undefined function getDatabaseConnection() in /home/ubuntu/workspace/csu/finalproject/api/getGun.php on line 5
+[09-May-2018 06:36:53 UTC] PHP Stack trace:
+[09-May-2018 06:36:53 UTC] PHP   1. {main}() /home/ubuntu/workspace/csu/finalproject/api/getGun.php:0
+[09-May-2018 06:37:28 UTC] PHP Warning:  include(dbConnection.php): failed to open stream: No such file or directory in /home/ubuntu/workspace/csu/finalproject/api/getGun.php on line 3
+[09-May-2018 06:37:28 UTC] PHP Stack trace:
+[09-May-2018 06:37:28 UTC] PHP   1. {main}() /home/ubuntu/workspace/csu/finalproject/api/getGun.php:0
+[09-May-2018 06:37:28 UTC] PHP Warning:  include(): Failed opening 'dbConnection.php' for inclusion (include_path='.:/usr/share/php:/usr/share/pear') in /home/ubuntu/workspace/csu/finalproject/api/getGun.php on line 3
+[09-May-2018 06:37:28 UTC] PHP Stack trace:
+[09-May-2018 06:37:28 UTC] PHP   1. {main}() /home/ubuntu/workspace/csu/finalproject/api/getGun.php:0
+[09-May-2018 06:37:28 UTC] PHP Fatal error:  Call to undefined function getDatabaseConnection() in /home/ubuntu/workspace/csu/finalproject/api/getGun.php on line 5
+[09-May-2018 06:37:28 UTC] PHP Stack trace:
+[09-May-2018 06:37:28 UTC] PHP   1. {main}() /home/ubuntu/workspace/csu/finalproject/api/getGun.php:0
+[09-May-2018 06:37:34 UTC] PHP Warning:  include(dbConnection.php): failed to open stream: No such file or directory in /home/ubuntu/workspace/csu/finalproject/api/getGun.php on line 3
+[09-May-2018 06:37:34 UTC] PHP Stack trace:
+[09-May-2018 06:37:34 UTC] PHP   1. {main}() /home/ubuntu/workspace/csu/finalproject/api/getGun.php:0
+[09-May-2018 06:37:34 UTC] PHP Warning:  include(): Failed opening 'dbConnection.php' for inclusion (include_path='.:/usr/share/php:/usr/share/pear') in /home/ubuntu/workspace/csu/finalproject/api/getGun.php on line 3
+[09-May-2018 06:37:34 UTC] PHP Stack trace:
+[09-May-2018 06:37:34 UTC] PHP   1. {main}() /home/ubuntu/workspace/csu/finalproject/api/getGun.php:0
+[09-May-2018 06:37:34 UTC] PHP Fatal error:  Call to undefined function getDatabaseConnection() in /home/ubuntu/workspace/csu/finalproject/api/getGun.php on line 5
+[09-May-2018 06:37:34 UTC] PHP Stack trace:
+[09-May-2018 06:37:34 UTC] PHP   1. {main}() /home/ubuntu/workspace/csu/finalproject/api/getGun.php:0
+[09-May-2018 06:38:29 UTC] PHP Warning:  include(dbConnection.php): failed to open stream: No such file or directory in /home/ubuntu/workspace/csu/finalproject/api/getGun.php on line 3
+[09-May-2018 06:38:29 UTC] PHP Stack trace:
+[09-May-2018 06:38:29 UTC] PHP   1. {main}() /home/ubuntu/workspace/csu/finalproject/api/getGun.php:0
+[09-May-2018 06:38:29 UTC] PHP Warning:  include(): Failed opening 'dbConnection.php' for inclusion (include_path='.:/usr/share/php:/usr/share/pear') in /home/ubuntu/workspace/csu/finalproject/api/getGun.php on line 3
+[09-May-2018 06:38:29 UTC] PHP Stack trace:
+[09-May-2018 06:38:29 UTC] PHP   1. {main}() /home/ubuntu/workspace/csu/finalproject/api/getGun.php:0
+[09-May-2018 06:38:29 UTC] PHP Fatal error:  Call to undefined function getDatabaseConnection() in /home/ubuntu/workspace/csu/finalproject/api/getGun.php on line 5
+[09-May-2018 06:38:29 UTC] PHP Stack trace:
+[09-May-2018 06:38:29 UTC] PHP   1. {main}() /home/ubuntu/workspace/csu/finalproject/api/getGun.php:0
+[09-May-2018 06:38:29 UTC] PHP Warning:  include(dbConnection.php): failed to open stream: No such file or directory in /home/ubuntu/workspace/csu/finalproject/api/getGun.php on line 3
+[09-May-2018 06:38:29 UTC] PHP Stack trace:
+[09-May-2018 06:38:29 UTC] PHP   1. {main}() /home/ubuntu/workspace/csu/finalproject/api/getGun.php:0
+[09-May-2018 06:38:29 UTC] PHP Warning:  include(): Failed opening 'dbConnection.php' for inclusion (include_path='.:/usr/share/php:/usr/share/pear') in /home/ubuntu/workspace/csu/finalproject/api/getGun.php on line 3
+[09-May-2018 06:38:29 UTC] PHP Stack trace:
+[09-May-2018 06:38:29 UTC] PHP   1. {main}() /home/ubuntu/workspace/csu/finalproject/api/getGun.php:0
+[09-May-2018 06:38:29 UTC] PHP Fatal error:  Call to undefined function getDatabaseConnection() in /home/ubuntu/workspace/csu/finalproject/api/getGun.php on line 5
+[09-May-2018 06:38:29 UTC] PHP Stack trace:
+[09-May-2018 06:38:29 UTC] PHP   1. {main}() /home/ubuntu/workspace/csu/finalproject/api/getGun.php:0
+[09-May-2018 06:39:00 UTC] PHP Warning:  include(dbConnection.php): failed to open stream: No such file or directory in /home/ubuntu/workspace/csu/finalproject/api/getGun.php on line 3
+[09-May-2018 06:39:00 UTC] PHP Stack trace:
+[09-May-2018 06:39:00 UTC] PHP   1. {main}() /home/ubuntu/workspace/csu/finalproject/api/getGun.php:0
+[09-May-2018 06:39:00 UTC] PHP Warning:  include(): Failed opening 'dbConnection.php' for inclusion (include_path='.:/usr/share/php:/usr/share/pear') in /home/ubuntu/workspace/csu/finalproject/api/getGun.php on line 3
+[09-May-2018 06:39:00 UTC] PHP Stack trace:
+[09-May-2018 06:39:00 UTC] PHP   1. {main}() /home/ubuntu/workspace/csu/finalproject/api/getGun.php:0
+[09-May-2018 06:39:00 UTC] PHP Fatal error:  Call to undefined function getDatabaseConnection() in /home/ubuntu/workspace/csu/finalproject/api/getGun.php on line 5
+[09-May-2018 06:39:00 UTC] PHP Stack trace:
+[09-May-2018 06:39:00 UTC] PHP   1. {main}() /home/ubuntu/workspace/csu/finalproject/api/getGun.php:0
+[09-May-2018 06:39:01 UTC] PHP Warning:  include(dbConnection.php): failed to open stream: No such file or directory in /home/ubuntu/workspace/csu/finalproject/api/getGun.php on line 3
+[09-May-2018 06:39:01 UTC] PHP Stack trace:
+[09-May-2018 06:39:01 UTC] PHP   1. {main}() /home/ubuntu/workspace/csu/finalproject/api/getGun.php:0
+[09-May-2018 06:39:01 UTC] PHP Warning:  include(): Failed opening 'dbConnection.php' for inclusion (include_path='.:/usr/share/php:/usr/share/pear') in /home/ubuntu/workspace/csu/finalproject/api/getGun.php on line 3
+[09-May-2018 06:39:01 UTC] PHP Stack trace:
+[09-May-2018 06:39:01 UTC] PHP   1. {main}() /home/ubuntu/workspace/csu/finalproject/api/getGun.php:0
+[09-May-2018 06:39:01 UTC] PHP Fatal error:  Call to undefined function getDatabaseConnection() in /home/ubuntu/workspace/csu/finalproject/api/getGun.php on line 5
+[09-May-2018 06:39:01 UTC] PHP Stack trace:
+[09-May-2018 06:39:01 UTC] PHP   1. {main}() /home/ubuntu/workspace/csu/finalproject/api/getGun.php:0
+[09-May-2018 06:39:04 UTC] PHP Warning:  include(dbConnection.php): failed to open stream: No such file or directory in /home/ubuntu/workspace/csu/finalproject/api/getGun.php on line 3
+[09-May-2018 06:39:04 UTC] PHP Stack trace:
+[09-May-2018 06:39:04 UTC] PHP   1. {main}() /home/ubuntu/workspace/csu/finalproject/api/getGun.php:0
+[09-May-2018 06:39:04 UTC] PHP Warning:  include(): Failed opening 'dbConnection.php' for inclusion (include_path='.:/usr/share/php:/usr/share/pear') in /home/ubuntu/workspace/csu/finalproject/api/getGun.php on line 3
+[09-May-2018 06:39:04 UTC] PHP Stack trace:
+[09-May-2018 06:39:04 UTC] PHP   1. {main}() /home/ubuntu/workspace/csu/finalproject/api/getGun.php:0
+[09-May-2018 06:39:04 UTC] PHP Fatal error:  Call to undefined function getDatabaseConnection() in /home/ubuntu/workspace/csu/finalproject/api/getGun.php on line 5
+[09-May-2018 06:39:04 UTC] PHP Stack trace:
+[09-May-2018 06:39:04 UTC] PHP   1. {main}() /home/ubuntu/workspace/csu/finalproject/api/getGun.php:0
+[09-May-2018 06:39:04 UTC] PHP Warning:  include(dbConnection.php): failed to open stream: No such file or directory in /home/ubuntu/workspace/csu/finalproject/api/getGun.php on line 3
+[09-May-2018 06:39:04 UTC] PHP Stack trace:
+[09-May-2018 06:39:04 UTC] PHP   1. {main}() /home/ubuntu/workspace/csu/finalproject/api/getGun.php:0
+[09-May-2018 06:39:04 UTC] PHP Warning:  include(): Failed opening 'dbConnection.php' for inclusion (include_path='.:/usr/share/php:/usr/share/pear') in /home/ubuntu/workspace/csu/finalproject/api/getGun.php on line 3
+[09-May-2018 06:39:04 UTC] PHP Stack trace:
+[09-May-2018 06:39:04 UTC] PHP   1. {main}() /home/ubuntu/workspace/csu/finalproject/api/getGun.php:0
+[09-May-2018 06:39:04 UTC] PHP Fatal error:  Call to undefined function getDatabaseConnection() in /home/ubuntu/workspace/csu/finalproject/api/getGun.php on line 5
+[09-May-2018 06:39:04 UTC] PHP Stack trace:
+[09-May-2018 06:39:04 UTC] PHP   1. {main}() /home/ubuntu/workspace/csu/finalproject/api/getGun.php:0
+[09-May-2018 06:40:04 UTC] PHP Warning:  include(dbConnection.php): failed to open stream: No such file or directory in /home/ubuntu/workspace/csu/finalproject/api/getGun.php on line 3
+[09-May-2018 06:40:04 UTC] PHP Stack trace:
+[09-May-2018 06:40:04 UTC] PHP   1. {main}() /home/ubuntu/workspace/csu/finalproject/api/getGun.php:0
+[09-May-2018 06:40:04 UTC] PHP Warning:  include(): Failed opening 'dbConnection.php' for inclusion (include_path='.:/usr/share/php:/usr/share/pear') in /home/ubuntu/workspace/csu/finalproject/api/getGun.php on line 3
+[09-May-2018 06:40:04 UTC] PHP Stack trace:
+[09-May-2018 06:40:04 UTC] PHP   1. {main}() /home/ubuntu/workspace/csu/finalproject/api/getGun.php:0
+[09-May-2018 06:40:04 UTC] PHP Fatal error:  Call to undefined function getDatabaseConnection() in /home/ubuntu/workspace/csu/finalproject/api/getGun.php on line 5
+[09-May-2018 06:40:04 UTC] PHP Stack trace:
+[09-May-2018 06:40:04 UTC] PHP   1. {main}() /home/ubuntu/workspace/csu/finalproject/api/getGun.php:0
+[09-May-2018 06:40:05 UTC] PHP Warning:  include(dbConnection.php): failed to open stream: No such file or directory in /home/ubuntu/workspace/csu/finalproject/api/getGun.php on line 3
+[09-May-2018 06:40:05 UTC] PHP Stack trace:
+[09-May-2018 06:40:05 UTC] PHP   1. {main}() /home/ubuntu/workspace/csu/finalproject/api/getGun.php:0
+[09-May-2018 06:40:05 UTC] PHP Warning:  include(): Failed opening 'dbConnection.php' for inclusion (include_path='.:/usr/share/php:/usr/share/pear') in /home/ubuntu/workspace/csu/finalproject/api/getGun.php on line 3
+[09-May-2018 06:40:05 UTC] PHP Stack trace:
+[09-May-2018 06:40:05 UTC] PHP   1. {main}() /home/ubuntu/workspace/csu/finalproject/api/getGun.php:0
+[09-May-2018 06:40:05 UTC] PHP Fatal error:  Call to undefined function getDatabaseConnection() in /home/ubuntu/workspace/csu/finalproject/api/getGun.php on line 5
+[09-May-2018 06:40:05 UTC] PHP Stack trace:
+[09-May-2018 06:40:05 UTC] PHP   1. {main}() /home/ubuntu/workspace/csu/finalproject/api/getGun.php:0
+[09-May-2018 06:40:19 UTC] PHP Warning:  include(dbConnection.php): failed to open stream: No such file or directory in /home/ubuntu/workspace/csu/finalproject/api/getGun.php on line 3
+[09-May-2018 06:40:19 UTC] PHP Stack trace:
+[09-May-2018 06:40:19 UTC] PHP   1. {main}() /home/ubuntu/workspace/csu/finalproject/api/getGun.php:0
+[09-May-2018 06:40:19 UTC] PHP Warning:  include(): Failed opening 'dbConnection.php' for inclusion (include_path='.:/usr/share/php:/usr/share/pear') in /home/ubuntu/workspace/csu/finalproject/api/getGun.php on line 3
+[09-May-2018 06:40:19 UTC] PHP Stack trace:
+[09-May-2018 06:40:19 UTC] PHP   1. {main}() /home/ubuntu/workspace/csu/finalproject/api/getGun.php:0
+[09-May-2018 06:40:19 UTC] PHP Fatal error:  Call to undefined function getDatabaseConnection() in /home/ubuntu/workspace/csu/finalproject/api/getGun.php on line 5
+[09-May-2018 06:40:19 UTC] PHP Stack trace:
+[09-May-2018 06:40:19 UTC] PHP   1. {main}() /home/ubuntu/workspace/csu/finalproject/api/getGun.php:0
+[09-May-2018 06:40:19 UTC] PHP Warning:  include(dbConnection.php): failed to open stream: No such file or directory in /home/ubuntu/workspace/csu/finalproject/api/getGun.php on line 3
+[09-May-2018 06:40:19 UTC] PHP Stack trace:
+[09-May-2018 06:40:19 UTC] PHP   1. {main}() /home/ubuntu/workspace/csu/finalproject/api/getGun.php:0
+[09-May-2018 06:40:19 UTC] PHP Warning:  include(): Failed opening 'dbConnection.php' for inclusion (include_path='.:/usr/share/php:/usr/share/pear') in /home/ubuntu/workspace/csu/finalproject/api/getGun.php on line 3
+[09-May-2018 06:40:19 UTC] PHP Stack trace:
+[09-May-2018 06:40:19 UTC] PHP   1. {main}() /home/ubuntu/workspace/csu/finalproject/api/getGun.php:0
+[09-May-2018 06:40:19 UTC] PHP Fatal error:  Call to undefined function getDatabaseConnection() in /home/ubuntu/workspace/csu/finalproject/api/getGun.php on line 5
+[09-May-2018 06:40:19 UTC] PHP Stack trace:
+[09-May-2018 06:40:19 UTC] PHP   1. {main}() /home/ubuntu/workspace/csu/finalproject/api/getGun.php:0
+[09-May-2018 06:40:23 UTC] PHP Warning:  include(dbConnection.php): failed to open stream: No such file or directory in /home/ubuntu/workspace/csu/finalproject/api/getGun.php on line 3
+[09-May-2018 06:40:23 UTC] PHP Stack trace:
+[09-May-2018 06:40:23 UTC] PHP   1. {main}() /home/ubuntu/workspace/csu/finalproject/api/getGun.php:0
+[09-May-2018 06:40:23 UTC] PHP Warning:  include(): Failed opening 'dbConnection.php' for inclusion (include_path='.:/usr/share/php:/usr/share/pear') in /home/ubuntu/workspace/csu/finalproject/api/getGun.php on line 3
+[09-May-2018 06:40:23 UTC] PHP Stack trace:
+[09-May-2018 06:40:23 UTC] PHP   1. {main}() /home/ubuntu/workspace/csu/finalproject/api/getGun.php:0
+[09-May-2018 06:40:23 UTC] PHP Fatal error:  Call to undefined function getDatabaseConnection() in /home/ubuntu/workspace/csu/finalproject/api/getGun.php on line 5
+[09-May-2018 06:40:23 UTC] PHP Stack trace:
+[09-May-2018 06:40:23 UTC] PHP   1. {main}() /home/ubuntu/workspace/csu/finalproject/api/getGun.php:0
+[09-May-2018 06:40:23 UTC] PHP Warning:  include(dbConnection.php): failed to open stream: No such file or directory in /home/ubuntu/workspace/csu/finalproject/api/getGun.php on line 3
+[09-May-2018 06:40:23 UTC] PHP Stack trace:
+[09-May-2018 06:40:23 UTC] PHP   1. {main}() /home/ubuntu/workspace/csu/finalproject/api/getGun.php:0
+[09-May-2018 06:40:23 UTC] PHP Warning:  include(): Failed opening 'dbConnection.php' for inclusion (include_path='.:/usr/share/php:/usr/share/pear') in /home/ubuntu/workspace/csu/finalproject/api/getGun.php on line 3
+[09-May-2018 06:40:23 UTC] PHP Stack trace:
+[09-May-2018 06:40:23 UTC] PHP   1. {main}() /home/ubuntu/workspace/csu/finalproject/api/getGun.php:0
+[09-May-2018 06:40:23 UTC] PHP Fatal error:  Call to undefined function getDatabaseConnection() in /home/ubuntu/workspace/csu/finalproject/api/getGun.php on line 5
+[09-May-2018 06:40:23 UTC] PHP Stack trace:
+[09-May-2018 06:40:23 UTC] PHP   1. {main}() /home/ubuntu/workspace/csu/finalproject/api/getGun.php:0
+[09-May-2018 06:40:36 UTC] PHP Warning:  include(dbConnection.php): failed to open stream: No such file or directory in /home/ubuntu/workspace/csu/finalproject/api/getGun.php on line 3
+[09-May-2018 06:40:36 UTC] PHP Stack trace:
+[09-May-2018 06:40:36 UTC] PHP   1. {main}() /home/ubuntu/workspace/csu/finalproject/api/getGun.php:0
+[09-May-2018 06:40:36 UTC] PHP Warning:  include(): Failed opening 'dbConnection.php' for inclusion (include_path='.:/usr/share/php:/usr/share/pear') in /home/ubuntu/workspace/csu/finalproject/api/getGun.php on line 3
+[09-May-2018 06:40:36 UTC] PHP Stack trace:
+[09-May-2018 06:40:36 UTC] PHP   1. {main}() /home/ubuntu/workspace/csu/finalproject/api/getGun.php:0
+[09-May-2018 06:40:36 UTC] PHP Fatal error:  Call to undefined function getDatabaseConnection() in /home/ubuntu/workspace/csu/finalproject/api/getGun.php on line 5
+[09-May-2018 06:40:36 UTC] PHP Stack trace:
+[09-May-2018 06:40:36 UTC] PHP   1. {main}() /home/ubuntu/workspace/csu/finalproject/api/getGun.php:0
+[09-May-2018 06:40:36 UTC] PHP Warning:  include(dbConnection.php): failed to open stream: No such file or directory in /home/ubuntu/workspace/csu/finalproject/api/getGun.php on line 3
+[09-May-2018 06:40:36 UTC] PHP Stack trace:
+[09-May-2018 06:40:36 UTC] PHP   1. {main}() /home/ubuntu/workspace/csu/finalproject/api/getGun.php:0
+[09-May-2018 06:40:36 UTC] PHP Warning:  include(): Failed opening 'dbConnection.php' for inclusion (include_path='.:/usr/share/php:/usr/share/pear') in /home/ubuntu/workspace/csu/finalproject/api/getGun.php on line 3
+[09-May-2018 06:40:36 UTC] PHP Stack trace:
+[09-May-2018 06:40:36 UTC] PHP   1. {main}() /home/ubuntu/workspace/csu/finalproject/api/getGun.php:0
+[09-May-2018 06:40:36 UTC] PHP Fatal error:  Call to undefined function getDatabaseConnection() in /home/ubuntu/workspace/csu/finalproject/api/getGun.php on line 5
+[09-May-2018 06:40:36 UTC] PHP Stack trace:
+[09-May-2018 06:40:36 UTC] PHP   1. {main}() /home/ubuntu/workspace/csu/finalproject/api/getGun.php:0
+[09-May-2018 06:41:00 UTC] PHP Warning:  include(dbConnection.php): failed to open stream: No such file or directory in /home/ubuntu/workspace/csu/finalproject/api/getGun.php on line 3
+[09-May-2018 06:41:00 UTC] PHP Stack trace:
+[09-May-2018 06:41:00 UTC] PHP   1. {main}() /home/ubuntu/workspace/csu/finalproject/api/getGun.php:0
+[09-May-2018 06:41:00 UTC] PHP Warning:  include(): Failed opening 'dbConnection.php' for inclusion (include_path='.:/usr/share/php:/usr/share/pear') in /home/ubuntu/workspace/csu/finalproject/api/getGun.php on line 3
+[09-May-2018 06:41:00 UTC] PHP Stack trace:
+[09-May-2018 06:41:00 UTC] PHP   1. {main}() /home/ubuntu/workspace/csu/finalproject/api/getGun.php:0
+[09-May-2018 06:41:00 UTC] PHP Fatal error:  Call to undefined function getDatabaseConnection() in /home/ubuntu/workspace/csu/finalproject/api/getGun.php on line 5
+[09-May-2018 06:41:00 UTC] PHP Stack trace:
+[09-May-2018 06:41:00 UTC] PHP   1. {main}() /home/ubuntu/workspace/csu/finalproject/api/getGun.php:0
+[09-May-2018 06:41:00 UTC] PHP Warning:  include(dbConnection.php): failed to open stream: No such file or directory in /home/ubuntu/workspace/csu/finalproject/api/getGun.php on line 3
+[09-May-2018 06:41:00 UTC] PHP Stack trace:
+[09-May-2018 06:41:00 UTC] PHP   1. {main}() /home/ubuntu/workspace/csu/finalproject/api/getGun.php:0
+[09-May-2018 06:41:00 UTC] PHP Warning:  include(): Failed opening 'dbConnection.php' for inclusion (include_path='.:/usr/share/php:/usr/share/pear') in /home/ubuntu/workspace/csu/finalproject/api/getGun.php on line 3
+[09-May-2018 06:41:00 UTC] PHP Stack trace:
+[09-May-2018 06:41:00 UTC] PHP   1. {main}() /home/ubuntu/workspace/csu/finalproject/api/getGun.php:0
+[09-May-2018 06:41:00 UTC] PHP Fatal error:  Call to undefined function getDatabaseConnection() in /home/ubuntu/workspace/csu/finalproject/api/getGun.php on line 5
+[09-May-2018 06:41:00 UTC] PHP Stack trace:
+[09-May-2018 06:41:00 UTC] PHP   1. {main}() /home/ubuntu/workspace/csu/finalproject/api/getGun.php:0
+[09-May-2018 06:43:30 UTC] PHP Warning:  include(dbConnection.php): failed to open stream: No such file or directory in /home/ubuntu/workspace/csu/finalproject/api/getGun.php on line 3
+[09-May-2018 06:43:30 UTC] PHP Stack trace:
+[09-May-2018 06:43:30 UTC] PHP   1. {main}() /home/ubuntu/workspace/csu/finalproject/api/getGun.php:0
+[09-May-2018 06:43:30 UTC] PHP Warning:  include(): Failed opening 'dbConnection.php' for inclusion (include_path='.:/usr/share/php:/usr/share/pear') in /home/ubuntu/workspace/csu/finalproject/api/getGun.php on line 3
+[09-May-2018 06:43:30 UTC] PHP Stack trace:
+[09-May-2018 06:43:30 UTC] PHP   1. {main}() /home/ubuntu/workspace/csu/finalproject/api/getGun.php:0
+[09-May-2018 06:43:30 UTC] PHP Fatal error:  Call to undefined function getDatabaseConnection() in /home/ubuntu/workspace/csu/finalproject/api/getGun.php on line 5
+[09-May-2018 06:43:30 UTC] PHP Stack trace:
+[09-May-2018 06:43:30 UTC] PHP   1. {main}() /home/ubuntu/workspace/csu/finalproject/api/getGun.php:0
+[09-May-2018 06:43:30 UTC] PHP Warning:  include(dbConnection.php): failed to open stream: No such file or directory in /home/ubuntu/workspace/csu/finalproject/api/getGun.php on line 3
+[09-May-2018 06:43:30 UTC] PHP Stack trace:
+[09-May-2018 06:43:30 UTC] PHP   1. {main}() /home/ubuntu/workspace/csu/finalproject/api/getGun.php:0
+[09-May-2018 06:43:30 UTC] PHP Warning:  include(): Failed opening 'dbConnection.php' for inclusion (include_path='.:/usr/share/php:/usr/share/pear') in /home/ubuntu/workspace/csu/finalproject/api/getGun.php on line 3
+[09-May-2018 06:43:30 UTC] PHP Stack trace:
+[09-May-2018 06:43:30 UTC] PHP   1. {main}() /home/ubuntu/workspace/csu/finalproject/api/getGun.php:0
+[09-May-2018 06:43:30 UTC] PHP Fatal error:  Call to undefined function getDatabaseConnection() in /home/ubuntu/workspace/csu/finalproject/api/getGun.php on line 5
+[09-May-2018 06:43:30 UTC] PHP Stack trace:
+[09-May-2018 06:43:30 UTC] PHP   1. {main}() /home/ubuntu/workspace/csu/finalproject/api/getGun.php:0
+[09-May-2018 06:43:57 UTC] PHP Warning:  include(dbConnection.php): failed to open stream: No such file or directory in /home/ubuntu/workspace/csu/finalproject/api/getGun.php on line 3
+[09-May-2018 06:43:57 UTC] PHP Stack trace:
+[09-May-2018 06:43:57 UTC] PHP   1. {main}() /home/ubuntu/workspace/csu/finalproject/api/getGun.php:0
+[09-May-2018 06:43:57 UTC] PHP Warning:  include(): Failed opening 'dbConnection.php' for inclusion (include_path='.:/usr/share/php:/usr/share/pear') in /home/ubuntu/workspace/csu/finalproject/api/getGun.php on line 3
+[09-May-2018 06:43:57 UTC] PHP Stack trace:
+[09-May-2018 06:43:57 UTC] PHP   1. {main}() /home/ubuntu/workspace/csu/finalproject/api/getGun.php:0
+[09-May-2018 06:43:57 UTC] PHP Fatal error:  Call to undefined function getDatabaseConnection() in /home/ubuntu/workspace/csu/finalproject/api/getGun.php on line 5
+[09-May-2018 06:43:57 UTC] PHP Stack trace:
+[09-May-2018 06:43:57 UTC] PHP   1. {main}() /home/ubuntu/workspace/csu/finalproject/api/getGun.php:0
+[09-May-2018 06:43:58 UTC] PHP Warning:  include(dbConnection.php): failed to open stream: No such file or directory in /home/ubuntu/workspace/csu/finalproject/api/getGun.php on line 3
+[09-May-2018 06:43:58 UTC] PHP Stack trace:
+[09-May-2018 06:43:58 UTC] PHP   1. {main}() /home/ubuntu/workspace/csu/finalproject/api/getGun.php:0
+[09-May-2018 06:43:58 UTC] PHP Warning:  include(): Failed opening 'dbConnection.php' for inclusion (include_path='.:/usr/share/php:/usr/share/pear') in /home/ubuntu/workspace/csu/finalproject/api/getGun.php on line 3
+[09-May-2018 06:43:58 UTC] PHP Stack trace:
+[09-May-2018 06:43:58 UTC] PHP   1. {main}() /home/ubuntu/workspace/csu/finalproject/api/getGun.php:0
+[09-May-2018 06:43:58 UTC] PHP Fatal error:  Call to undefined function getDatabaseConnection() in /home/ubuntu/workspace/csu/finalproject/api/getGun.php on line 5
+[09-May-2018 06:43:58 UTC] PHP Stack trace:
+[09-May-2018 06:43:58 UTC] PHP   1. {main}() /home/ubuntu/workspace/csu/finalproject/api/getGun.php:0
+[09-May-2018 06:44:16 UTC] PHP Warning:  include(dbConnection.php): failed to open stream: No such file or directory in /home/ubuntu/workspace/csu/finalproject/api/getGun.php on line 3
+[09-May-2018 06:44:16 UTC] PHP Stack trace:
+[09-May-2018 06:44:16 UTC] PHP   1. {main}() /home/ubuntu/workspace/csu/finalproject/api/getGun.php:0
+[09-May-2018 06:44:16 UTC] PHP Warning:  include(): Failed opening 'dbConnection.php' for inclusion (include_path='.:/usr/share/php:/usr/share/pear') in /home/ubuntu/workspace/csu/finalproject/api/getGun.php on line 3
+[09-May-2018 06:44:16 UTC] PHP Stack trace:
+[09-May-2018 06:44:16 UTC] PHP   1. {main}() /home/ubuntu/workspace/csu/finalproject/api/getGun.php:0
+[09-May-2018 06:44:16 UTC] PHP Fatal error:  Call to undefined function getDatabaseConnection() in /home/ubuntu/workspace/csu/finalproject/api/getGun.php on line 5
+[09-May-2018 06:44:16 UTC] PHP Stack trace:
+[09-May-2018 06:44:16 UTC] PHP   1. {main}() /home/ubuntu/workspace/csu/finalproject/api/getGun.php:0
+[09-May-2018 06:44:16 UTC] PHP Warning:  include(dbConnection.php): failed to open stream: No such file or directory in /home/ubuntu/workspace/csu/finalproject/api/getGun.php on line 3
+[09-May-2018 06:44:16 UTC] PHP Stack trace:
+[09-May-2018 06:44:16 UTC] PHP   1. {main}() /home/ubuntu/workspace/csu/finalproject/api/getGun.php:0
+[09-May-2018 06:44:16 UTC] PHP Warning:  include(): Failed opening 'dbConnection.php' for inclusion (include_path='.:/usr/share/php:/usr/share/pear') in /home/ubuntu/workspace/csu/finalproject/api/getGun.php on line 3
+[09-May-2018 06:44:16 UTC] PHP Stack trace:
+[09-May-2018 06:44:16 UTC] PHP   1. {main}() /home/ubuntu/workspace/csu/finalproject/api/getGun.php:0
+[09-May-2018 06:44:16 UTC] PHP Fatal error:  Call to undefined function getDatabaseConnection() in /home/ubuntu/workspace/csu/finalproject/api/getGun.php on line 5
+[09-May-2018 06:44:16 UTC] PHP Stack trace:
+[09-May-2018 06:44:16 UTC] PHP   1. {main}() /home/ubuntu/workspace/csu/finalproject/api/getGun.php:0
+[09-May-2018 06:44:33 UTC] PHP Warning:  include(dbConnection.php): failed to open stream: No such file or directory in /home/ubuntu/workspace/csu/finalproject/api/getGun.php on line 3
+[09-May-2018 06:44:33 UTC] PHP Stack trace:
+[09-May-2018 06:44:33 UTC] PHP   1. {main}() /home/ubuntu/workspace/csu/finalproject/api/getGun.php:0
+[09-May-2018 06:44:33 UTC] PHP Warning:  include(): Failed opening 'dbConnection.php' for inclusion (include_path='.:/usr/share/php:/usr/share/pear') in /home/ubuntu/workspace/csu/finalproject/api/getGun.php on line 3
+[09-May-2018 06:44:33 UTC] PHP Stack trace:
+[09-May-2018 06:44:33 UTC] PHP   1. {main}() /home/ubuntu/workspace/csu/finalproject/api/getGun.php:0
+[09-May-2018 06:44:33 UTC] PHP Fatal error:  Call to undefined function getDatabaseConnection() in /home/ubuntu/workspace/csu/finalproject/api/getGun.php on line 5
+[09-May-2018 06:44:33 UTC] PHP Stack trace:
+[09-May-2018 06:44:33 UTC] PHP   1. {main}() /home/ubuntu/workspace/csu/finalproject/api/getGun.php:0
+[09-May-2018 06:44:33 UTC] PHP Warning:  include(dbConnection.php): failed to open stream: No such file or directory in /home/ubuntu/workspace/csu/finalproject/api/getGun.php on line 3
+[09-May-2018 06:44:33 UTC] PHP Stack trace:
+[09-May-2018 06:44:33 UTC] PHP   1. {main}() /home/ubuntu/workspace/csu/finalproject/api/getGun.php:0
+[09-May-2018 06:44:33 UTC] PHP Warning:  include(): Failed opening 'dbConnection.php' for inclusion (include_path='.:/usr/share/php:/usr/share/pear') in /home/ubuntu/workspace/csu/finalproject/api/getGun.php on line 3
+[09-May-2018 06:44:33 UTC] PHP Stack trace:
+[09-May-2018 06:44:33 UTC] PHP   1. {main}() /home/ubuntu/workspace/csu/finalproject/api/getGun.php:0
+[09-May-2018 06:44:33 UTC] PHP Fatal error:  Call to undefined function getDatabaseConnection() in /home/ubuntu/workspace/csu/finalproject/api/getGun.php on line 5
+[09-May-2018 06:44:33 UTC] PHP Stack trace:
+[09-May-2018 06:44:33 UTC] PHP   1. {main}() /home/ubuntu/workspace/csu/finalproject/api/getGun.php:0
+[09-May-2018 06:44:37 UTC] PHP Warning:  include(dbConnection.php): failed to open stream: No such file or directory in /home/ubuntu/workspace/csu/finalproject/api/getGun.php on line 3
+[09-May-2018 06:44:37 UTC] PHP Stack trace:
+[09-May-2018 06:44:37 UTC] PHP   1. {main}() /home/ubuntu/workspace/csu/finalproject/api/getGun.php:0
+[09-May-2018 06:44:37 UTC] PHP Warning:  include(): Failed opening 'dbConnection.php' for inclusion (include_path='.:/usr/share/php:/usr/share/pear') in /home/ubuntu/workspace/csu/finalproject/api/getGun.php on line 3
+[09-May-2018 06:44:37 UTC] PHP Stack trace:
+[09-May-2018 06:44:37 UTC] PHP   1. {main}() /home/ubuntu/workspace/csu/finalproject/api/getGun.php:0
+[09-May-2018 06:44:37 UTC] PHP Fatal error:  Call to undefined function getDatabaseConnection() in /home/ubuntu/workspace/csu/finalproject/api/getGun.php on line 5
+[09-May-2018 06:44:37 UTC] PHP Stack trace:
+[09-May-2018 06:44:37 UTC] PHP   1. {main}() /home/ubuntu/workspace/csu/finalproject/api/getGun.php:0
+[09-May-2018 06:44:38 UTC] PHP Warning:  include(dbConnection.php): failed to open stream: No such file or directory in /home/ubuntu/workspace/csu/finalproject/api/getGun.php on line 3
+[09-May-2018 06:44:38 UTC] PHP Stack trace:
+[09-May-2018 06:44:38 UTC] PHP   1. {main}() /home/ubuntu/workspace/csu/finalproject/api/getGun.php:0
+[09-May-2018 06:44:38 UTC] PHP Warning:  include(): Failed opening 'dbConnection.php' for inclusion (include_path='.:/usr/share/php:/usr/share/pear') in /home/ubuntu/workspace/csu/finalproject/api/getGun.php on line 3
+[09-May-2018 06:44:38 UTC] PHP Stack trace:
+[09-May-2018 06:44:38 UTC] PHP   1. {main}() /home/ubuntu/workspace/csu/finalproject/api/getGun.php:0
+[09-May-2018 06:44:38 UTC] PHP Fatal error:  Call to undefined function getDatabaseConnection() in /home/ubuntu/workspace/csu/finalproject/api/getGun.php on line 5
+[09-May-2018 06:44:38 UTC] PHP Stack trace:
+[09-May-2018 06:44:38 UTC] PHP   1. {main}() /home/ubuntu/workspace/csu/finalproject/api/getGun.php:0
+[09-May-2018 06:45:55 UTC] PHP Warning:  include(dbConnection.php): failed to open stream: No such file or directory in /home/ubuntu/workspace/csu/finalproject/api/getGun.php on line 3
+[09-May-2018 06:45:55 UTC] PHP Stack trace:
+[09-May-2018 06:45:55 UTC] PHP   1. {main}() /home/ubuntu/workspace/csu/finalproject/api/getGun.php:0
+[09-May-2018 06:45:55 UTC] PHP Warning:  include(): Failed opening 'dbConnection.php' for inclusion (include_path='.:/usr/share/php:/usr/share/pear') in /home/ubuntu/workspace/csu/finalproject/api/getGun.php on line 3
+[09-May-2018 06:45:55 UTC] PHP Stack trace:
+[09-May-2018 06:45:55 UTC] PHP   1. {main}() /home/ubuntu/workspace/csu/finalproject/api/getGun.php:0
+[09-May-2018 06:45:55 UTC] PHP Fatal error:  Call to undefined function getDatabaseConnection() in /home/ubuntu/workspace/csu/finalproject/api/getGun.php on line 5
+[09-May-2018 06:45:55 UTC] PHP Stack trace:
+[09-May-2018 06:45:55 UTC] PHP   1. {main}() /home/ubuntu/workspace/csu/finalproject/api/getGun.php:0
+[09-May-2018 06:45:55 UTC] PHP Warning:  include(dbConnection.php): failed to open stream: No such file or directory in /home/ubuntu/workspace/csu/finalproject/api/getGun.php on line 3
+[09-May-2018 06:45:55 UTC] PHP Stack trace:
+[09-May-2018 06:45:55 UTC] PHP   1. {main}() /home/ubuntu/workspace/csu/finalproject/api/getGun.php:0
+[09-May-2018 06:45:55 UTC] PHP Warning:  include(): Failed opening 'dbConnection.php' for inclusion (include_path='.:/usr/share/php:/usr/share/pear') in /home/ubuntu/workspace/csu/finalproject/api/getGun.php on line 3
+[09-May-2018 06:45:55 UTC] PHP Stack trace:
+[09-May-2018 06:45:55 UTC] PHP   1. {main}() /home/ubuntu/workspace/csu/finalproject/api/getGun.php:0
+[09-May-2018 06:45:55 UTC] PHP Fatal error:  Call to undefined function getDatabaseConnection() in /home/ubuntu/workspace/csu/finalproject/api/getGun.php on line 5
+[09-May-2018 06:45:55 UTC] PHP Stack trace:
+[09-May-2018 06:45:55 UTC] PHP   1. {main}() /home/ubuntu/workspace/csu/finalproject/api/getGun.php:0
+[09-May-2018 06:46:03 UTC] PHP Warning:  include(dbConnection.php): failed to open stream: No such file or directory in /home/ubuntu/workspace/csu/finalproject/api/getGun.php on line 3
+[09-May-2018 06:46:03 UTC] PHP Stack trace:
+[09-May-2018 06:46:03 UTC] PHP   1. {main}() /home/ubuntu/workspace/csu/finalproject/api/getGun.php:0
+[09-May-2018 06:46:03 UTC] PHP Warning:  include(): Failed opening 'dbConnection.php' for inclusion (include_path='.:/usr/share/php:/usr/share/pear') in /home/ubuntu/workspace/csu/finalproject/api/getGun.php on line 3
+[09-May-2018 06:46:03 UTC] PHP Stack trace:
+[09-May-2018 06:46:03 UTC] PHP   1. {main}() /home/ubuntu/workspace/csu/finalproject/api/getGun.php:0
+[09-May-2018 06:46:03 UTC] PHP Fatal error:  Call to undefined function getDatabaseConnection() in /home/ubuntu/workspace/csu/finalproject/api/getGun.php on line 5
+[09-May-2018 06:46:03 UTC] PHP Stack trace:
+[09-May-2018 06:46:03 UTC] PHP   1. {main}() /home/ubuntu/workspace/csu/finalproject/api/getGun.php:0
+[09-May-2018 06:46:03 UTC] PHP Warning:  include(dbConnection.php): failed to open stream: No such file or directory in /home/ubuntu/workspace/csu/finalproject/api/getGun.php on line 3
+[09-May-2018 06:46:03 UTC] PHP Stack trace:
+[09-May-2018 06:46:03 UTC] PHP   1. {main}() /home/ubuntu/workspace/csu/finalproject/api/getGun.php:0
+[09-May-2018 06:46:03 UTC] PHP Warning:  include(): Failed opening 'dbConnection.php' for inclusion (include_path='.:/usr/share/php:/usr/share/pear') in /home/ubuntu/workspace/csu/finalproject/api/getGun.php on line 3
+[09-May-2018 06:46:03 UTC] PHP Stack trace:
+[09-May-2018 06:46:03 UTC] PHP   1. {main}() /home/ubuntu/workspace/csu/finalproject/api/getGun.php:0
+[09-May-2018 06:46:03 UTC] PHP Fatal error:  Call to undefined function getDatabaseConnection() in /home/ubuntu/workspace/csu/finalproject/api/getGun.php on line 5
+[09-May-2018 06:46:03 UTC] PHP Stack trace:
+[09-May-2018 06:46:03 UTC] PHP   1. {main}() /home/ubuntu/workspace/csu/finalproject/api/getGun.php:0
+[09-May-2018 06:46:13 UTC] PHP Warning:  include(dbConnection.php): failed to open stream: No such file or directory in /home/ubuntu/workspace/csu/finalproject/api/getGun.php on line 3
+[09-May-2018 06:46:13 UTC] PHP Stack trace:
+[09-May-2018 06:46:13 UTC] PHP   1. {main}() /home/ubuntu/workspace/csu/finalproject/api/getGun.php:0
+[09-May-2018 06:46:13 UTC] PHP Warning:  include(): Failed opening 'dbConnection.php' for inclusion (include_path='.:/usr/share/php:/usr/share/pear') in /home/ubuntu/workspace/csu/finalproject/api/getGun.php on line 3
+[09-May-2018 06:46:13 UTC] PHP Stack trace:
+[09-May-2018 06:46:13 UTC] PHP   1. {main}() /home/ubuntu/workspace/csu/finalproject/api/getGun.php:0
+[09-May-2018 06:46:13 UTC] PHP Fatal error:  Call to undefined function getDatabaseConnection() in /home/ubuntu/workspace/csu/finalproject/api/getGun.php on line 5
+[09-May-2018 06:46:13 UTC] PHP Stack trace:
+[09-May-2018 06:46:13 UTC] PHP   1. {main}() /home/ubuntu/workspace/csu/finalproject/api/getGun.php:0
+[09-May-2018 06:46:14 UTC] PHP Warning:  include(dbConnection.php): failed to open stream: No such file or directory in /home/ubuntu/workspace/csu/finalproject/api/getGun.php on line 3
+[09-May-2018 06:46:14 UTC] PHP Stack trace:
+[09-May-2018 06:46:14 UTC] PHP   1. {main}() /home/ubuntu/workspace/csu/finalproject/api/getGun.php:0
+[09-May-2018 06:46:14 UTC] PHP Warning:  include(): Failed opening 'dbConnection.php' for inclusion (include_path='.:/usr/share/php:/usr/share/pear') in /home/ubuntu/workspace/csu/finalproject/api/getGun.php on line 3
+[09-May-2018 06:46:14 UTC] PHP Stack trace:
+[09-May-2018 06:46:14 UTC] PHP   1. {main}() /home/ubuntu/workspace/csu/finalproject/api/getGun.php:0
+[09-May-2018 06:46:14 UTC] PHP Fatal error:  Call to undefined function getDatabaseConnection() in /home/ubuntu/workspace/csu/finalproject/api/getGun.php on line 5
+[09-May-2018 06:46:14 UTC] PHP Stack trace:
+[09-May-2018 06:46:14 UTC] PHP   1. {main}() /home/ubuntu/workspace/csu/finalproject/api/getGun.php:0
+[09-May-2018 06:48:27 UTC] PHP Warning:  include(dbConnection.php): failed to open stream: No such file or directory in /home/ubuntu/workspace/csu/finalproject/api/getGunInfo.php on line 3
+[09-May-2018 06:48:27 UTC] PHP Stack trace:
+[09-May-2018 06:48:27 UTC] PHP   1. {main}() /home/ubuntu/workspace/csu/finalproject/api/getGunInfo.php:0
+[09-May-2018 06:48:27 UTC] PHP Warning:  include(): Failed opening 'dbConnection.php' for inclusion (include_path='.:/usr/share/php:/usr/share/pear') in /home/ubuntu/workspace/csu/finalproject/api/getGunInfo.php on line 3
+[09-May-2018 06:48:27 UTC] PHP Stack trace:
+[09-May-2018 06:48:27 UTC] PHP   1. {main}() /home/ubuntu/workspace/csu/finalproject/api/getGunInfo.php:0
+[09-May-2018 06:48:27 UTC] PHP Fatal error:  Call to undefined function getDatabaseConnection() in /home/ubuntu/workspace/csu/finalproject/api/getGunInfo.php on line 5
+[09-May-2018 06:48:27 UTC] PHP Stack trace:
+[09-May-2018 06:48:27 UTC] PHP   1. {main}() /home/ubuntu/workspace/csu/finalproject/api/getGunInfo.php:0
+[09-May-2018 06:55:52 UTC] PHP Warning:  include(dbConnection.php): failed to open stream: No such file or directory in /home/ubuntu/workspace/csu/finalproject/api/getGunInfo.php on line 3
+[09-May-2018 06:55:52 UTC] PHP Stack trace:
+[09-May-2018 06:55:52 UTC] PHP   1. {main}() /home/ubuntu/workspace/csu/finalproject/api/getGunInfo.php:0
+[09-May-2018 06:55:52 UTC] PHP Warning:  include(): Failed opening 'dbConnection.php' for inclusion (include_path='.:/usr/share/php:/usr/share/pear') in /home/ubuntu/workspace/csu/finalproject/api/getGunInfo.php on line 3
+[09-May-2018 06:55:52 UTC] PHP Stack trace:
+[09-May-2018 06:55:52 UTC] PHP   1. {main}() /home/ubuntu/workspace/csu/finalproject/api/getGunInfo.php:0
+[09-May-2018 06:55:52 UTC] PHP Fatal error:  Call to undefined function getDatabaseConnection() in /home/ubuntu/workspace/csu/finalproject/api/getGunInfo.php on line 5
+[09-May-2018 06:55:52 UTC] PHP Stack trace:
+[09-May-2018 06:55:52 UTC] PHP   1. {main}() /home/ubuntu/workspace/csu/finalproject/api/getGunInfo.php:0
+[09-May-2018 06:56:56 UTC] PHP Warning:  include(dbConnection.php): failed to open stream: No such file or directory in /home/ubuntu/workspace/csu/finalproject/api/getGunInfo.php on line 3
+[09-May-2018 06:56:56 UTC] PHP Stack trace:
+[09-May-2018 06:56:56 UTC] PHP   1. {main}() /home/ubuntu/workspace/csu/finalproject/api/getGunInfo.php:0
+[09-May-2018 06:56:56 UTC] PHP Warning:  include(): Failed opening 'dbConnection.php' for inclusion (include_path='.:/usr/share/php:/usr/share/pear') in /home/ubuntu/workspace/csu/finalproject/api/getGunInfo.php on line 3
+[09-May-2018 06:56:56 UTC] PHP Stack trace:
+[09-May-2018 06:56:56 UTC] PHP   1. {main}() /home/ubuntu/workspace/csu/finalproject/api/getGunInfo.php:0
+[09-May-2018 06:56:56 UTC] PHP Fatal error:  Call to undefined function getDatabaseConnection() in /home/ubuntu/workspace/csu/finalproject/api/getGunInfo.php on line 5
+[09-May-2018 06:56:56 UTC] PHP Stack trace:
+[09-May-2018 06:56:56 UTC] PHP   1. {main}() /home/ubuntu/workspace/csu/finalproject/api/getGunInfo.php:0
+[09-May-2018 06:57:07 UTC] PHP Warning:  include(dbConnection.php): failed to open stream: No such file or directory in /home/ubuntu/workspace/csu/finalproject/api/getGunInfo.php on line 3
+[09-May-2018 06:57:07 UTC] PHP Stack trace:
+[09-May-2018 06:57:07 UTC] PHP   1. {main}() /home/ubuntu/workspace/csu/finalproject/api/getGunInfo.php:0
+[09-May-2018 06:57:07 UTC] PHP Warning:  include(): Failed opening 'dbConnection.php' for inclusion (include_path='.:/usr/share/php:/usr/share/pear') in /home/ubuntu/workspace/csu/finalproject/api/getGunInfo.php on line 3
+[09-May-2018 06:57:07 UTC] PHP Stack trace:
+[09-May-2018 06:57:07 UTC] PHP   1. {main}() /home/ubuntu/workspace/csu/finalproject/api/getGunInfo.php:0
+[09-May-2018 06:57:07 UTC] PHP Fatal error:  Call to undefined function getDatabaseConnection() in /home/ubuntu/workspace/csu/finalproject/api/getGunInfo.php on line 5
+[09-May-2018 06:57:07 UTC] PHP Stack trace:
+[09-May-2018 06:57:07 UTC] PHP   1. {main}() /home/ubuntu/workspace/csu/finalproject/api/getGunInfo.php:0
+[09-May-2018 06:58:53 UTC] PHP Warning:  include(dbConnection.php): failed to open stream: No such file or directory in /home/ubuntu/workspace/csu/finalproject/api/getGunInfo.php on line 3
+[09-May-2018 06:58:53 UTC] PHP Stack trace:
+[09-May-2018 06:58:53 UTC] PHP   1. {main}() /home/ubuntu/workspace/csu/finalproject/api/getGunInfo.php:0
+[09-May-2018 06:58:53 UTC] PHP Warning:  include(): Failed opening 'dbConnection.php' for inclusion (include_path='.:/usr/share/php:/usr/share/pear') in /home/ubuntu/workspace/csu/finalproject/api/getGunInfo.php on line 3
+[09-May-2018 06:58:53 UTC] PHP Stack trace:
+[09-May-2018 06:58:53 UTC] PHP   1. {main}() /home/ubuntu/workspace/csu/finalproject/api/getGunInfo.php:0
+[09-May-2018 06:58:53 UTC] PHP Fatal error:  Call to undefined function getDatabaseConnection() in /home/ubuntu/workspace/csu/finalproject/api/getGunInfo.php on line 5
+[09-May-2018 06:58:53 UTC] PHP Stack trace:
+[09-May-2018 06:58:53 UTC] PHP   1. {main}() /home/ubuntu/workspace/csu/finalproject/api/getGunInfo.php:0
+[09-May-2018 07:00:12 UTC] PHP Warning:  include(dbConnection.php): failed to open stream: No such file or directory in /home/ubuntu/workspace/csu/finalproject/api/getGunInfo.php on line 3
+[09-May-2018 07:00:12 UTC] PHP Stack trace:
+[09-May-2018 07:00:12 UTC] PHP   1. {main}() /home/ubuntu/workspace/csu/finalproject/api/getGunInfo.php:0
+[09-May-2018 07:00:12 UTC] PHP Warning:  include(): Failed opening 'dbConnection.php' for inclusion (include_path='.:/usr/share/php:/usr/share/pear') in /home/ubuntu/workspace/csu/finalproject/api/getGunInfo.php on line 3
+[09-May-2018 07:00:12 UTC] PHP Stack trace:
+[09-May-2018 07:00:12 UTC] PHP   1. {main}() /home/ubuntu/workspace/csu/finalproject/api/getGunInfo.php:0
+[09-May-2018 07:00:12 UTC] PHP Fatal error:  Call to undefined function getDatabaseConnection() in /home/ubuntu/workspace/csu/finalproject/api/getGunInfo.php on line 4
+[09-May-2018 07:00:12 UTC] PHP Stack trace:
+[09-May-2018 07:00:12 UTC] PHP   1. {main}() /home/ubuntu/workspace/csu/finalproject/api/getGunInfo.php:0
+[09-May-2018 07:00:25 UTC] PHP Warning:  include(dbConnection.php): failed to open stream: No such file or directory in /home/ubuntu/workspace/csu/finalproject/api/getGunInfo.php on line 3
+[09-May-2018 07:00:25 UTC] PHP Stack trace:
+[09-May-2018 07:00:25 UTC] PHP   1. {main}() /home/ubuntu/workspace/csu/finalproject/api/getGunInfo.php:0
+[09-May-2018 07:00:25 UTC] PHP Warning:  include(): Failed opening 'dbConnection.php' for inclusion (include_path='.:/usr/share/php:/usr/share/pear') in /home/ubuntu/workspace/csu/finalproject/api/getGunInfo.php on line 3
+[09-May-2018 07:00:25 UTC] PHP Stack trace:
+[09-May-2018 07:00:25 UTC] PHP   1. {main}() /home/ubuntu/workspace/csu/finalproject/api/getGunInfo.php:0
+[09-May-2018 07:00:25 UTC] PHP Fatal error:  Call to undefined function getDatabaseConnection() in /home/ubuntu/workspace/csu/finalproject/api/getGunInfo.php on line 4
+[09-May-2018 07:00:25 UTC] PHP Stack trace:
+[09-May-2018 07:00:25 UTC] PHP   1. {main}() /home/ubuntu/workspace/csu/finalproject/api/getGunInfo.php:0
+[09-May-2018 07:02:01 UTC] PHP Warning:  include(dbConnection.php): failed to open stream: No such file or directory in /home/ubuntu/workspace/csu/finalproject/api/getGunInfo.php on line 3
+[09-May-2018 07:02:01 UTC] PHP Stack trace:
+[09-May-2018 07:02:01 UTC] PHP   1. {main}() /home/ubuntu/workspace/csu/finalproject/api/getGunInfo.php:0
+[09-May-2018 07:02:01 UTC] PHP Warning:  include(): Failed opening 'dbConnection.php' for inclusion (include_path='.:/usr/share/php:/usr/share/pear') in /home/ubuntu/workspace/csu/finalproject/api/getGunInfo.php on line 3
+[09-May-2018 07:02:01 UTC] PHP Stack trace:
+[09-May-2018 07:02:01 UTC] PHP   1. {main}() /home/ubuntu/workspace/csu/finalproject/api/getGunInfo.php:0
+[09-May-2018 07:02:01 UTC] PHP Fatal error:  Call to undefined function getDatabaseConnection() in /home/ubuntu/workspace/csu/finalproject/api/getGunInfo.php on line 4
+[09-May-2018 07:02:01 UTC] PHP Stack trace:
+[09-May-2018 07:02:01 UTC] PHP   1. {main}() /home/ubuntu/workspace/csu/finalproject/api/getGunInfo.php:0
+[09-May-2018 07:02:08 UTC] PHP Warning:  include(dbConnection.php): failed to open stream: No such file or directory in /home/ubuntu/workspace/csu/finalproject/api/getGunInfo.php on line 3
+[09-May-2018 07:02:08 UTC] PHP Stack trace:
+[09-May-2018 07:02:08 UTC] PHP   1. {main}() /home/ubuntu/workspace/csu/finalproject/api/getGunInfo.php:0
+[09-May-2018 07:02:08 UTC] PHP Warning:  include(): Failed opening 'dbConnection.php' for inclusion (include_path='.:/usr/share/php:/usr/share/pear') in /home/ubuntu/workspace/csu/finalproject/api/getGunInfo.php on line 3
+[09-May-2018 07:02:08 UTC] PHP Stack trace:
+[09-May-2018 07:02:08 UTC] PHP   1. {main}() /home/ubuntu/workspace/csu/finalproject/api/getGunInfo.php:0
+[09-May-2018 07:02:08 UTC] PHP Fatal error:  Call to undefined function getDatabaseConnection() in /home/ubuntu/workspace/csu/finalproject/api/getGunInfo.php on line 4
+[09-May-2018 07:02:08 UTC] PHP Stack trace:
+[09-May-2018 07:02:08 UTC] PHP   1. {main}() /home/ubuntu/workspace/csu/finalproject/api/getGunInfo.php:0
